@@ -1,0 +1,455 @@
+{
+ "about": "Labelled headlines for llm_eval.py. driver = the one macro driver the headline is mainly about ('none' = not macro). sign = +1 / -1 / 0 in the page's convention: fed + hawkish, inflation + hotter, labor + stronger, energy + oil up, geo + escalation, growth + stronger, bonds + yields up, fiscal + more borrowing worry, earnings + beats, trade + more tariffs, fx + dollar up, credit + more stress. Written by hand: edit or add lines to test the cases you care about.",
+ "items": [
+  {
+   "title": "Fed's Schmid says policy needs to stay tight until inflation clearly falls",
+   "driver": "fed",
+   "sign": 1,
+   "kw": {
+    "driver": "fed",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Fed's Miran argues for lower rates as tariff effects fade",
+   "driver": "fed",
+   "sign": -1,
+   "kw": {
+    "driver": "fed",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Central bank officials say the next move in rates is likely higher",
+   "driver": "fed",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Fed governor says further rate increases are off the table for now",
+   "driver": "fed",
+   "sign": -1,
+   "kw": {
+    "driver": "fed",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Fed minutes show growing support for pausing the tightening campaign",
+   "driver": "fed",
+   "sign": -1,
+   "kw": {
+    "driver": "fed",
+    "score": 0
+   }
+  },
+  {
+   "title": "Powell says the committee is prepared to raise rates again if needed",
+   "driver": "fed",
+   "sign": 1,
+   "kw": {
+    "driver": "fed",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Fed holds rates steady as expected",
+   "driver": "fed",
+   "sign": 0,
+   "kw": {
+    "driver": "fed",
+    "score": 0
+   }
+  },
+  {
+   "title": "Traders now see a December hike as a coin flip, down from near-certain last week",
+   "driver": "fed",
+   "sign": -1,
+   "kw": {
+    "driver": "fed",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Stocks slide as investors brace for a hawkish Fed",
+   "driver": "fed",
+   "sign": 1,
+   "kw": {
+    "driver": "fed",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Producer prices jump 0.9% in October, far above forecasts",
+   "driver": "inflation",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Core PCE inflation cools to 2.8%, the slowest in a year",
+   "driver": "inflation",
+   "sign": -1,
+   "kw": {
+    "driver": "inflation",
+    "score": 0
+   }
+  },
+  {
+   "title": "Consumer prices rose 0.3% last month, matching economists' expectations",
+   "driver": "inflation",
+   "sign": 0,
+   "kw": {
+    "driver": "inflation",
+    "score": 0.3
+   }
+  },
+  {
+   "title": "Wholesale inflation unexpectedly eases as energy costs retreat",
+   "driver": "inflation",
+   "sign": -1,
+   "kw": {
+    "driver": "inflation",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Shelter costs push US inflation higher than analysts expected",
+   "driver": "inflation",
+   "sign": 1,
+   "kw": {
+    "driver": "inflation",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Wall Street's favorite inflation gauge runs hotter than forecast",
+   "driver": "inflation",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Employers added 180,000 jobs in October, more than double what economists predicted",
+   "driver": "labor",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Initial jobless claims surge to a six-month high",
+   "driver": "labor",
+   "sign": -1,
+   "kw": {
+    "driver": "labor",
+    "score": -1
+   }
+  },
+  {
+   "title": "Unemployment rate ticks down to 4.1% as hiring picks up",
+   "driver": "labor",
+   "sign": 1,
+   "kw": {
+    "driver": "labor",
+    "score": 0
+   }
+  },
+  {
+   "title": "Major retailer announces 5,000 layoffs ahead of the holiday season",
+   "driver": "labor",
+   "sign": -1,
+   "kw": {
+    "driver": "labor",
+    "score": 0
+   }
+  },
+  {
+   "title": "Private payrolls come in as forecast at 105,000",
+   "driver": "labor",
+   "sign": 0,
+   "kw": {
+    "driver": "labor",
+    "score": 0
+   }
+  },
+  {
+   "title": "Crude futures tumble 4% on report of rising US inventories",
+   "driver": "energy",
+   "sign": -1,
+   "kw": {
+    "driver": "energy",
+    "score": 0
+   }
+  },
+  {
+   "title": "OPEC+ agrees to deepen output cuts, sending Brent to a three-month high",
+   "driver": "energy",
+   "sign": 1,
+   "kw": {
+    "driver": "energy",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Natural gas prices jump as a cold snap boosts heating demand",
+   "driver": "energy",
+   "sign": 1,
+   "kw": {
+    "driver": "energy",
+    "score": 1
+   }
+  },
+  {
+   "title": "Brent slips below $90 as demand worries mount",
+   "driver": "energy",
+   "sign": -1,
+   "kw": {
+    "driver": "energy",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Ceasefire talks collapse as missile strikes hit a Gulf shipping lane",
+   "driver": "geo",
+   "sign": 1,
+   "kw": {
+    "driver": "geo",
+    "score": 1
+   }
+  },
+  {
+   "title": "Rival sides agree to a truce, easing fears of a wider regional war",
+   "driver": "geo",
+   "sign": -1,
+   "kw": {
+    "driver": "fed",
+    "score": 0
+   }
+  },
+  {
+   "title": "Retail sales fall 0.6% as shoppers pull back",
+   "driver": "growth",
+   "sign": -1,
+   "kw": {
+    "driver": "growth",
+    "score": -0.3
+   }
+  },
+  {
+   "title": "Factory activity expands for the first time in eight months, ISM says",
+   "driver": "growth",
+   "sign": 1,
+   "kw": {
+    "driver": "growth",
+    "score": 0
+   }
+  },
+  {
+   "title": "Consumer sentiment slides to its lowest level since 2022",
+   "driver": "growth",
+   "sign": -1,
+   "kw": {
+    "driver": "growth",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Home sales drop to a 15-year low as mortgage rates bite",
+   "driver": "growth",
+   "sign": -1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "US economy grew at a 3.4% annual pace last quarter, beating forecasts",
+   "driver": "growth",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Ten-year Treasury yield jumps to 5.2%, the highest since 2007",
+   "driver": "bonds",
+   "sign": 1,
+   "kw": {
+    "driver": "bonds",
+    "score": 1
+   }
+  },
+  {
+   "title": "Treasuries rally as yields drop for a fifth straight session",
+   "driver": "bonds",
+   "sign": -1,
+   "kw": {
+    "driver": "bonds",
+    "score": 0
+   }
+  },
+  {
+   "title": "Weak demand at the 30-year auction sends yields higher",
+   "driver": "bonds",
+   "sign": 1,
+   "kw": {
+    "driver": "bonds",
+    "score": 0
+   }
+  },
+  {
+   "title": "Treasury boosts its borrowing estimate as the deficit widens",
+   "driver": "fiscal",
+   "sign": 1,
+   "kw": {
+    "driver": "bonds",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Congress passes a bill cutting the deficit by $1 trillion over a decade",
+   "driver": "fiscal",
+   "sign": -1,
+   "kw": {
+    "driver": "fiscal",
+    "score": 0
+   }
+  },
+  {
+   "title": "Chipmaker beats profit estimates and raises its full-year outlook",
+   "driver": "earnings",
+   "sign": 1,
+   "kw": {
+    "driver": "earnings",
+    "score": 0.7
+   }
+  },
+  {
+   "title": "Retailer misses sales targets and cuts guidance, shares sink",
+   "driver": "earnings",
+   "sign": -1,
+   "kw": {
+    "driver": "earnings",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "White House announces new 25% tariffs on imported steel and aluminum",
+   "driver": "trade",
+   "sign": 1,
+   "kw": {
+    "driver": "trade",
+    "score": 0
+   }
+  },
+  {
+   "title": "US and China agree to roll back tariffs in a landmark trade deal",
+   "driver": "trade",
+   "sign": -1,
+   "kw": {
+    "driver": "trade",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Dollar surges to a three-year high against the yen",
+   "driver": "fx",
+   "sign": 1,
+   "kw": {
+    "driver": "fx",
+    "score": 1
+   }
+  },
+  {
+   "title": "Euro climbs as the dollar slides to a one-month low",
+   "driver": "fx",
+   "sign": -1,
+   "kw": {
+    "driver": "fx",
+    "score": -0.7
+   }
+  },
+  {
+   "title": "Regional bank shares plunge as loan losses mount",
+   "driver": "credit",
+   "sign": 1,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Credit spreads tighten to the narrowest level in two years as risk appetite returns",
+   "driver": "credit",
+   "sign": -1,
+   "kw": {
+    "driver": "credit",
+    "score": 0
+   }
+  },
+  {
+   "title": "Taylor Swift announces new tour dates across Europe",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Lakers beat Celtics in overtime thriller",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Five tips to prepare your portfolio for retirement",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Apple is hosting a product event next Tuesday",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "earnings",
+    "score": 0
+   }
+  },
+  {
+   "title": "Opinion: why economists keep getting recessions wrong",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  },
+  {
+   "title": "Stocks close higher as tech names rebound",
+   "driver": "none",
+   "sign": 0,
+   "kw": {
+    "driver": "none",
+    "score": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "url": "http://localhost:11434/v1",
+  "model": "",
+  "batch": 5,
+  "max_new": 60,
+  "timeout": 240,
+  "max_tokens": 1800
+}
