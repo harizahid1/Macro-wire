@@ -1,32 +1,31 @@
-MACRO WIRE RUN  2026-11-16T20:57:52+00:00
+MACRO WIRE RUN  2026-11-17T05:03:45+00:00
 
 1. COLLECT - sources
    Treasury               ok    2 of 2 requests ok
    Yahoo Finance          ok    9 of 9 requests ok
    BLS                    ok    1 of 1 requests ok
    NY Fed                 ok    1 of 1 requests ok
-   Headline feeds         ok    12 of 14 requests ok; last error HTTPError: HTTP Error 429: Too Many Requests
-   Data checks            ok    32 checks: 32 ok, 0 warnings, 0 failed
+   Headline feeds         ok    6 of 14 requests ok; last error HTTPError: HTTP Error 503: Service Unavailable
+   Data checks            ok    32 checks: 31 ok, 1 warnings, 0 failed
 
-2. VALIDATE - 32 checks: 32 ok, 0 warnings, 0 failed
+2. VALIDATE - 32 checks: 31 ok, 1 warnings, 0 failed
+   WARN 6 of 14 feeds answered
 
 3. UNDERSTAND - what the data says
    - Rates: the 10Y yield is 5.12% (-3bp on the day, +26bp over 5 days); 2Y 4.83%, 10Y–2Y +29bp. Over five days the curve showed bear flattening (short yields rising faster).
    - Policy path: the 6-month bill yields 4.42% against an effective funds rate of 3.88%, so bills price about +54bp (+2.2 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.
    - Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.20%, -3bp over 5 days.
    - Jobs (Oct): payrolls +165K, 3-month average 137K (the three months before: 28K), unemployment 4.1% (+0.0 pt over 3 months).
-   - Stocks: the S&P 500 is 7,412 (-2.0% on the day, -1.8% over 5 days), 5.2% below its 65-day high; VIX 23.9 is elevated.
-   - Oil, dollar and gold: Brent $92.39 (-0.2% in 5 days); dollar index 103.58 (+1.9% in 5 days); gold $3,856 (-6.3% in 5 days).
-   * changed: Brent moved from $96.08 to $92.39.
-   * changed: VIX moved from 19.3 to 23.9.
+   - Stocks: the S&P 500 is 7,417 (-1.9% on the day, -1.8% over 5 days), 5.2% below its 65-day high; VIX 22.9 is elevated.
+   - Oil, dollar and gold: Brent $92.44 (-0.1% in 5 days); dollar index 103.55 (+1.9% in 5 days); gold $3,853 (-6.4% in 5 days).
 
    Data-driven leans (-1 dovish ... +1 hawkish; the page adds its typed leads to these)
-   next Fed decision  +0.33  from 6 leads
+   next Fed decision  +0.34  from 6 leads
       +1.00 (weight 0.8)  The 6-month bill yields 54bp above the policy rate; after a normal 5bp bill premium that is about +49bp (+2.0 quarter-point steps) priced over six months, a rough read of the market's path
       +1.00 (weight 0.6)  The 2Y yield, the market's read of the Fed, moved +32bp in 5 trading days (now 4.83%)
-      -0.49 (weight 0.4)  VIX at 23.9 (elevated): stress makes the Fed less willing to tighten
+      -0.41 (weight 0.4)  VIX at 22.9 (elevated): stress makes the Fed less willing to tighten
       -0.38 (weight 0.4)  The 10Y inflation breakeven is 2.20%, -3bp over 5 days
-      -0.02 (weight 0.5)  Brent moved -0.2% over 5 trading days (now $92.39)
+      -0.02 (weight 0.5)  Brent moved -0.1% over 5 trading days (now $92.44)
       -0.00 (weight 0.5)  Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience
    CPI                -1.00  from 2 leads
       -1.00 (weight 0.8)  Brent averaged $96.41 in Nov against $108.62 in the month before, -11.2%; oil feeds pump prices within weeks
@@ -44,6 +43,6 @@ MACRO WIRE RUN  2026-11-16T20:57:52+00:00
    tile brent  refreshed
    tile gold   refreshed
    tile spx    refreshed
-   headlines: 120 kept of 386 fetched from 12 of 14 feeds
+   headlines: 24 kept of 111 fetched from 6 of 14 feeds
    scorecard: no scored calls yet (needs a CPI or jobs release after a run that made a call)
    wrote data.js - reload macro-wire.html
