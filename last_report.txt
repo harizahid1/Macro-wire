@@ -1,4 +1,4 @@
-MACRO WIRE RUN  2026-11-19T01:51:21+00:00
+MACRO WIRE RUN  2026-11-19T19:27:50+00:00
 
 1. COLLECT - sources
    Treasury               ok    2 of 2 requests ok
@@ -15,19 +15,20 @@ MACRO WIRE RUN  2026-11-19T01:51:21+00:00
    - Policy path: the 6-month bill yields 4.43% against an effective funds rate of 3.88%, so bills price about +55bp (+2.2 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.
    - Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.19%, -1bp over 5 days.
    - Jobs (Oct): payrolls +165K, 3-month average 137K (the three months before: 28K), unemployment 4.1% (+0.0 pt over 3 months).
-   - Stocks: the S&P 500 is 7,324 (-0.2% on the day, -3.9% over 5 days), 6.3% below its 65-day high; VIX 24.6 is elevated.
-   - Oil, dollar and gold: Brent $89.60 (-3.4% in 5 days); dollar index 103.81 (+0.9% in 5 days); gold $3,750 (-6.3% in 5 days).
+   - Stocks: the S&P 500 is 7,229 (-1.3% on the day, -4.8% over 5 days), 7.5% below its 66-day high; VIX 28.0 is elevated.
+   - Oil, dollar and gold: Brent $89.60 (-6.5% in 5 days); dollar index 103.89 (+0.7% in 5 days); gold $3,675 (-5.4% in 5 days).
+   * changed: VIX moved from 24.6 to 28.0.
 
    Data-driven leans (-1 dovish ... +1 hawkish; the page adds its typed leads to these)
-   next Fed decision  +0.21  from 6 leads
+   next Fed decision  +0.11  from 6 leads
       +1.00 (weight 0.8)  The 6-month bill yields 55bp above the policy rate; after a normal 5bp bill premium that is about +50bp (+2.0 quarter-point steps) priced over six months, a rough read of the market's path
+      -0.81 (weight 0.5)  Brent moved -6.5% over 5 trading days (now $89.60)
       +0.58 (weight 0.6)  The 2Y yield, the market's read of the Fed, moved +7bp in 5 trading days (now 4.80%)
-      -0.55 (weight 0.4)  VIX at 24.6 (elevated): stress makes the Fed less willing to tighten
-      -0.43 (weight 0.5)  Brent moved -3.4% over 5 trading days (now $89.60)
+      -0.84 (weight 0.4)  VIX at 28.0 (elevated): stress makes the Fed less willing to tighten
       -0.13 (weight 0.4)  The 10Y inflation breakeven is 2.19%, -1bp over 5 days
       -0.00 (weight 0.5)  Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience
    CPI                -1.00  from 2 leads
-      -1.00 (weight 0.8)  Brent averaged $95.64 in Nov against $108.62 in the month before, -12.0%; oil feeds pump prices within weeks
+      -1.00 (weight 0.8)  Brent averaged $95.37 in Nov against $108.62 in the month before, -12.2%; oil feeds pump prices within weeks
       -1.00 (weight 0.5)  The 10Y breakeven moved -16bp over 20 trading days
    jobs report        +0.50  from 2 leads
       +1.00 (weight 0.5)  Payroll growth averaged 137K over the last 3 months against 28K in the 3 before
@@ -42,6 +43,6 @@ MACRO WIRE RUN  2026-11-19T01:51:21+00:00
    tile brent  refreshed
    tile gold   refreshed
    tile spx    refreshed
-   headlines: 120 kept of 629 fetched from 14 of 14 feeds
+   headlines: 120 kept of 624 fetched from 14 of 14 feeds
    scorecard: no scored calls yet (needs a CPI or jobs release after a run that made a call)
    wrote data.js - reload macro-wire.html
