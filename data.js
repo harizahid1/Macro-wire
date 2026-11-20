@@ -1,7 +1,7 @@
 /* Written by update.py (collect, validate, understand, project). Safe to delete; the page then shows its built-in snapshot. */
 window.MW_DATA = {
  "pipeline": 2,
- "generated": "2026-11-19T19:27:50+00:00",
+ "generated": "2026-11-20T01:45:23+00:00",
  "levels": {
   "ffr": {
    "k": "Fed funds target",
@@ -17,36 +17,379 @@ window.MW_DATA = {
   },
   "y10": {
    "k": "US 10Y yield",
-   "v": "5.07%",
-   "s": "2Y 4.80% \u00b7 10Y\u20132Y +27bp \u00b7 -3bp on the day \u00b7 +9bp in 5 days",
-   "d": "Nov 18 close"
+   "v": "5.04%",
+   "s": "2Y 4.76% \u00b7 10Y\u20132Y +28bp \u00b7 -3bp on the day \u00b7 -6bp in 5 days",
+   "d": "Nov 19 close"
   },
   "dxy": {
    "k": "Dollar index",
-   "v": "103.89",
-   "s": "+0.03% on the day",
+   "v": "103.88",
+   "s": "+0.02% on the day",
    "d": "Nov 19"
   },
   "brent": {
    "k": "Brent crude",
-   "v": "$89.60",
-   "s": "-2.6% on the day \u00b7 -6.5% in 5 days \u00b7 WTI $82.68",
+   "v": "$89.93",
+   "s": "-2.2% on the day \u00b7 -6.1% in 5 days \u00b7 WTI $82.90",
    "d": "Nov 19"
   },
   "gold": {
    "k": "Gold, front future",
-   "v": "$3,675",
-   "s": "-1.8% on the day",
+   "v": "$3,583",
+   "s": "-4.3% on the day",
    "d": "Nov 19"
   },
   "spx": {
    "k": "S&P 500",
-   "v": "7,229",
-   "s": "-1.29% on the day \u00b7 Nasdaq 24,106 (-1.3%) \u00b7 VIX 28.0",
+   "v": "7,176",
+   "s": "-2.02% on the day \u00b7 Nasdaq 23,879 (-2.3%) \u00b7 VIX 28.4",
    "d": "Nov 19 close"
   }
  },
  "headlines": [
+  {
+   "d": "2026-11-20",
+   "title": "Gold falls to lowest levels in 14 months as US dollar strengthens amid Fed rate hike worries",
+   "src": "CNBC TV18",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNzBKNWQ1end6dE1QdmVfdWNDUVAwWkl3c1pNVlZtV01OWm5WMGk1TDhkVzBKUnRIZExQWGdjbDhZYUZmVWIxQ0Zrdms5SlhRTDR0Z1dlRW1hWExJZ21NVFZVNGVmTUdtMm9ZS2hDQTFnTjItZkNXdEVoWTRfcGZQY1hyN3A4dENHVkZ0Y1pXdktnNnpHdjhFNG5USmdiVjhrTUI3Y0dSUVZZX0dYODlNWUpYZUkzMlBzQTZBV25WWVpjclRES3VOaDJPTmpQbExUVFhuUUJFdWpFcmRodmJhM1ZZSdIB6AFBVV95cUxOMFQwaXRfU2ZWdGFVRjBBRnFzZW9TSnJUeW1IZE1BV3Azd19DQy1GVlFmaENQcTUwbkFwQlhCc1VoNE1nZi1iMlFhUlRPbmJhdzRjS05qZ0Y5M0U4WVVVWmU0cTVQRTR4M1lYQmZVclVGVmVJWUNZdnA5MC1XM2EzdTZCdXBxaF9FVnN4UFVQUEt3WE1NRE84YldyMFdSQWpZU08zV01NMTg5QVFJZ2ZIOVpRQlE1MVI3OUlSZG95SGRGYXZJOWU3RFp4YWk2d1hOZWd0T0ZzN1g4NjBOYVQ3elEwb21Fc05O?oc=5",
+   "t": "2026-11-20T01:15:46+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Euro faces pressure as Fed rate hike bets strengthen US Dollar",
+   "src": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcWI0NUJ0c0luMTAyVTNTZHZndzZ2ZHd0OXo3NDk4LVFPT3FRXzR5eTBFUXU3Z2ZOZ3NMTUx1dEtvRWFtODZfeFE4Y1Z5cXhrdTZqb2tRUlFmbXl1SUlubG5VOHRNSUw1RXRlb1VwX2lDdkdTVjB6UXhEbnkxYmtsSlo2VzJvY2pZY0o2UGF6Z0hTYnNvVFlsU1JYWnp0LV9rcmh6Rl9rUDg?oc=5",
+   "t": "2026-11-20T01:14:07+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+   "src": "CNBC economy",
+   "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+   "t": "2026-11-20T00:52:17+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Japan CPI Rises to Fastest This Year, Backing BOJ Hike Case",
+   "src": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM2NOOWw3YnlUdXhvb0FwZ2FRcFJQV2p2bVhEbjVoX3A5VUV0c0VPNEc2RkpHVkp5Tld6SE1NQ1p4ODQ3UGZKWEhMdFpPVEZ5QTJ0UXliWXE3amxGNzBKMG5RTnJ2S08yWTFtcWJTRnM3R19Md1A4a2VmQnRIV2xNU0R0dW5OQ3lTYlhNV1BNRFc2anQtMTJRc2ZFTE5NaVI0LUxhMlIwaG9DN0RNVjROMW9B?oc=5",
+   "t": "2026-11-20T00:46:00+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Oil Prices Today: Hormuz Oil Flows Hit Record, Saudi Exports Jump 21%. Why Is Brent Still Above $92?",
+   "src": "NDTV Profit",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQRHVpZjJNbE8zdVhpYlNYV2dIVGxNb0hsQ3FTTHJvWDBObzlENTF3N0ZqWWFJNEFQZ09yVmNVQVMyd05GdkdzMUpmcmJKTTZjRTFjLV9hTF9Ha1hySko3aGgzSmg2NGJjemZZamo2d212UWZ6OXRUNHFIMWs1SXdleGRjd01jOEN0TFlBVzVhVTliWUpXYTZuMUdoXzJCamxmYmRlTDBZemRLcks3X09oc0V6aU1JSWtjeWFTNlpNRDRtbU5ZT0NGNk5fSnVrYmhhamxVUjlON01NOXJyVkNDMDJpOEVVR3dGRFJUUHFFa3ZHWUZpbFh1b0lMd2F3NGEzd2pIamN6dVBwWk3SAZMCQVVfeXFMTjBNYXA3Rmx3eWhfR2taVlJmaG5lYVZsWkZPY3VjT0F1OGU4VE0xSC10WkFLcnJPY1hWeDFVWjhPY1V3OXpkLXhsci1WMU91WTIxQTY4empHUExlajVpczVjWWVTTWlGV2hxZmdrY1hjUnBaUWZQSk9BWHRrR1JtTHJwcVNqWTR1TWdGQVdWY0hLMU5aZzJHakpJNnRQRFZ3bmtycjQtWXVRYk9OaWN1LWRsb2dtdWQwbjhUcmdmWE5xN2M1dUY5c0d4QXh1RUd6VFRpVUNqeXlrQWN5N0FBS0xaamozc1RMdFI4eXFjNDNBTHlWa3kxWGlEM0ZCVVZuZWt3QzBVY0NGMWhCSkZiSGRuSWc?oc=5",
+   "t": "2026-11-20T00:38:49+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Retirees Are Buying Annuities at a Record Pace Following the Fed\u2019s September Rate Hike",
+   "src": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNnk5V2Q4RE9GNk55UGtFRzBaU1U0OHBYa2E3Y3JWUlVEa3hUaTctMEVaQXdoU3VZVVlyQ09zcm9vdTRZSmJ1NjVtLXFBODlmYnpPU0RHVV91Y3FrbXo3aUQwT25HOGVYV2tfbDJOMTMtZVBFcGE5RHNmTW9Wclo5M2hlNGY3NTUtSC1ONlVPSDM5Rkd4akMxWWZiaF80RGVOQy1VQ2J4OWNQRDRkQm9LN05ZTzRTMDduWF8zRU5BbV9HNTdtcUNGanJtdGR0TjFoTEE?oc=5",
+   "t": "2026-11-20T00:37:00+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Dollar heads for fourth week of gains after Anthropic IPO, Fed rate hike bets",
+   "src": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTTl0Z2tJbk5RLWxmSnlwbDBfUS1VckpyMmJUMGZrYnpsQ0NxODd6eVhzWTBwdURCVW1xc3pYdEZTaF9DQWEwTVlnTk9RNjVfUHhHYmNiWmE0N1ZSWVQtcmxsQkV3NkdqdkppWGlMdU9BWGpDWFpRV0JJVVNubFp2YmdTd2daSUhXM3dtSVFpbGhreEtSTENGODViNE5LWG1YUjRjYl93VQ?oc=5",
+   "t": "2026-11-20T00:34:04+00:00"
+  },
+  {
+   "d": "2026-11-20",
+   "title": "Canada and China Draw Closer with Expanded Trade Pact",
+   "src": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmRUVkxHN0s2YlBRdWN1TElodk1UaVlzcG5ETFM2OS1HRlFIMUdWd1ZaYm9JYkNzUXZHc2N1d2xGVV95U19BWWpIejRXWWRBaUZPTHNCaF9DSm9faWdSWmVSVXdWY3hwNG1meUtkLUpCSjU2OTNsVVJ4ZUVpd05oZnZfTEpOcHZ6UGFkRlRWMWZnZw?oc=5",
+   "t": "2026-11-20T00:18:43+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Five Checks For \u2026 Creating Better Tariff Scenario Plans",
+   "src": "The National Law Review",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa1FLeEl3YWtmUktlUFZ6RVhLcnVyclcxZk56RS00Zkk4UXA1M3lNOUNTdjdCRFlxXzRHaEhHWTQyZ3pFMzZNTUV4VktMdWNUTWJOR1lLSVRyMzZ4WElJV1ltZmdPSDRzMHRQQlBRMGJrSVp2MkhNSUtCQXFBM19KYmFQUl9aVlJjMGfSAY8BQVVfeXFMTlZpbTJ4ZU5wWjJVY2Y2ZEg2X2pzZWk3ZHpkYTAtWlh2aXRZVFpzUkRsODRkNmMybmltajhZSWtHQmJwUjJaWHNBYmI0S2JWc0ZwVnR4X0w2YWhvZG9zUmdwSFRuZ1FfdFROeEdXUVd5bGFfMldfd1k1SFJlX254eG9hSzI1SndnU1YzZzhyeEE?oc=5",
+   "t": "2026-11-19T23:52:33+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027",
+   "src": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUU1WUGVxVFQ1ZDR0dWp6TERfYkRQVE0yLXkycmZoYXJidGhTT3Z5YXVvd3RObFppYWlqOWs4bU5iT3pWSDZBS01mbGQwc3JxN0lTR3dkQjN0aGhEVEtwdG5MNDM4Z0VzMUJlRzZEakl5eC04VmpMVlhBbmJxZTNHdUJHTXdscndIUTF5UlNqeV8tbVVPc2tjQ3pzYW1MWS1Ia09KbkpWTFZ1T2o5aFI4bWlHSQ?oc=5",
+   "t": "2026-11-19T23:42:31+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Fed Minutes Signal Further Rate Increases, Pressuring Bitcoin Treasury Firms\u2019 Funding: 8 outlets compared",
+   "src": "NewsCord",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXhzRE5UdUxXUm5Xc2RYZ3I2X0lYSzJUei00dWxIb01BSVpfUE5TdlZoNnBLOGdSZjliaDl3anhUQUNPbC14ZHgtN2V1a1NjZ1BlVEVram0zUHhQNVM5bkJhdlVGMUNaS1Jfbl9TTkFGaWRSQkRRbUp6WWN2UFRRZWwzUG5tVlNvZ29BblRuREswemhZMkR5Y3J6SkRoVzJsYkN2ODZTQVJBME5TZnZibDZaRWFWeENFbUZ4eFhDR1B6LVpadG5ZWVNjc2M2cTdWUnl2cG5XM0dmWVJKczEwbll6VTlDZVdKWWc?oc=5",
+   "t": "2026-11-19T23:23:30+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Thailand Says US Trade Deal Includes Lowering of Forced Labor Duties",
+   "src": "WWD",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTFDNFJwdlc5ZWhndUJwU3FsQTVtdEFPLU5oQlgtNVZRcUpwQkppem50MjA5RFRLVzNXRUpXeklQUFJjVFM0REo4M0FEVmNxYnJ4eE9KNUdnb3FOTVU4cTRxd0tTQ0dSWGc0VWloU3pwTjZBMUc3LUdGR1lMMjlHalI5N1NLR1k1ZUhqalQ1b0hhYlNMRFZiVXI3R0VBT2l3TEh6bXYwNC1vbWJnZUpwb0R3?oc=5",
+   "t": "2026-11-19T23:10:40+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Nasdaq futures jump 560 points: 5 things to know before Wall Street opens",
+   "src": "Invezz",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeUQ0SDlqeXU1c21YWDVsdXlYQ1EzbU16S29VTjdxeDR6NFlfRHFHZWl2TlpIaGJRNnlmb1BwbjhvcVhxdXZWVUg2a2NrT3BRRHkyT0haWmVfa3BNdnhiaEttdmJqalFQWWJjc0pRTmlOejdxTmJwaWlOTnpjNl9jaWpuWnAwUHlqeEIzU0FhUkZueERtRk5sR0NiZ2prYjVIajNFMGFiMWhqeVMzSWt4Ng?oc=5",
+   "t": "2026-11-19T23:09:25+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Canada sees little US movement on tariff relief, sources say",
+   "src": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+   "t": "2026-11-19T23:02:16+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Treasury's 10-year TIPS sale draws a 2.903% real yield, the highest since 2002",
+   "src": "MLQ.ai",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb3NOeTA2dnZtVTBMWWRjNlZNV2NoM0h5d3BtUXJzdldoMW9acXhNSnhXd0Nrem5qYTBROV9XaXFnSU9ueWozd090T3ZOUUVicXo5WmJieVA4bTV6d2RLWXdsU1VkdTh6dTZfRkJNQ3F4Ni1vN2U4SzVNZzNaaEdoSzlOM2htOUFSUWJmXzJJSS1wUExwaTJKWFVSVQ?oc=5",
+   "t": "2026-11-19T22:53:45+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Oil settles flat as Hormuz disruptions offset global surplus fears",
+   "src": "The Business Times",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ1gzbzRfTGxVaEVpZURwTzFFa25SdmpHbE5mdXdWSlV4TFZFSUVNX3FNRTlPYTNZNnZ2RHhhYm80ZUQ1VGRxWHZ1UW14ZDNrOGJHaUlEbWpwbmdJcDlBV3lOOERQU1JfNGJJYnlObEJiMTJsbm4tYW9uQVd6ZGZXWlF3c2hsTFh3ZGt4R1RfQUkxMWoyM0VLR1h4UWcyRGU1akxYV25NeExtS0FTRjdN?oc=5",
+   "t": "2026-11-19T22:42:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Anthropic shares jump 17% in record Nasdaq debut despite Wall Street sell-off and AI bubble fears",
+   "src": "Moneycontrol.com",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRHJaREh0Mlh0TEVLXzlUMmt3WWZEd21yODJ4aHpUc3M5N3Y3U290VUJKYlFFWHBQU19sbG81d0tnV1JwT19rbE1KYTRHekl6ZEVSTDZ2ZlJ6RURKaEZfeFQ0UUtYdEw2ZzQ2MUxHT3RIMGhNQXp6bnBob2VCWGVXaENSa2Q4Zl9TQTV4clRkbE5Md01UZlVkQ1hOVFU3aEotRlpIRkVYNFJpOUg5TEJ2NUFwbUZCZHVkdTZlNjBiZHRiRERQZDhiREdENFpxNGNQMzAxWmZrNTlRMEFLaVVSNmZFZDNFaHFUV2JKTEJNc1g0Z1HSAfgBQVVfeXFMTTNyNHU1OWhtbzdDWjktWVBCUXNoOVRaNjd2MTFFbzJoZXE0ejRkSW9CQlQ2WlctOERQeVJULUx4ekRCX2FaZERlamU5T3lnRk5qTldJbmZ0X1pIMnYtRG8ybWNld2VxeTZheHVfcVlfblkwMTNxVzZqVG91Q3pMUEtWVmJaRHUyN3ZsbTA0bE9zQ2VLay1KTlllX2t3QmQweUdEd01tMzB6ZmFGcVJud2F0ZkZVNVF1c0NCVmJUNTNNak0xNHRtLThDQ2ozVzlUcV9IZ00wVzJ3Tm1vbFpmVXlFNGpMZTY1dU5JRVhFOU1RaDNQQXg2eW8?oc=5",
+   "t": "2026-11-19T22:35:58+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak",
+   "src": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSGpYZGU1NEFyQXBVNm9jYUhHTGVtNmZkYjZjNE9waVU2UWtmNERsdWR0aHBOdFpqdmgyaFF2VGJQNmkwT3VIVGpBNmxoYWF4WFNZb2g2UzVBVnJUclAtMnVRM2QzUl9qMUdSa0xGc2F3ZF9DZml1dnZELV95X2hDMDJieW1jMUU1WHhZaF92bVJWQ1FTbTJXWEJMWlhpdVFQbWdVWERmZTRQSHVHamFHam5SS1ZUSmN3a1l4TmtwSjMtUTNiTk9Tcl9Lckg?oc=5",
+   "t": "2026-11-19T22:30:58+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom",
+   "src": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+   "t": "2026-11-19T22:18:33+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Wall Street tumbles to longest losing streak since 2024",
+   "src": "Toledo Blade",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNMldqd0tsVVVYVG9JV2VTNFdkMVFYSXI3dHZvOHlxZFQzbzNMYWlmb2dhSV9wREVxYl9xaDhpQmhDX05QZk5mbzBmY1VpSFdxYlFHOWhOSkowbUxxRTlodGRBMWc1bURzaWxDa3YtSFRDa29wRzlUd0pmdTFjX3JwWkJvZUJKS0pGdkdRVkcxNHhKSm81eDRhQi1uNmx2Zm9LYzVqcTVzbmNzWWhyN3lDRnA5eFpmbVJPTUtNemVYbWI0RS01NVZyZnk4S3lsZ21KT1JlLTg4aTVZYnVxRTZwRVdCbDJOM1dZNXBpQlloaEgybWdpR1I2d2dUS1hEeFk?oc=5",
+   "t": "2026-11-19T22:17:04+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold falls below $3,700 an ounce, lowest since 2025",
+   "src": "Daily Voice Of Asia",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUXFESFNtdk5mSzFTN2ZKbDVseDVQVm1ob0RfbldQaUlaX2IxSjNPTUNibGZ0M1dWMUxLX1lGOS1rbXp4OGZKZDNmOGlGcGYyaWkzc09lbDFKRW1XN2Rsd0Ywb201UHJMbF80bDU2cGJvNmM0UVdxa1VCdkt6S0FDVkxWQlNCajR4Q0E?oc=5",
+   "t": "2026-11-19T22:05:47+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Iran Mounts About 14 Hormuz Attacks in November as Brent Crude Falls One-Fifth",
+   "src": "https://houseofsaud.com/",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Gb2NQQlF0cHFacTdNVFFqUUM3OXlFR3k5WGpaOURiYUhtN3JKMVVJMlpHSGt6ODg0ZXFUbHRMQkxWUFcxZmd5SHl3MXdVZGE5U21sMU1abFBxb0JDbldSY01yNUM3RmI5MnRHTEVqaTJSWWx2NldLaA?oc=5",
+   "t": "2026-11-19T22:02:52+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "J.P. Morgan now sees three straight Fed hikes, dropping its \u2018December and done\u2019 call",
+   "src": "investingLive",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMm9IR3NkTFZud25OWk5QY3l0SVhfX2ZNY0ozS0xNc0d5NGk1bDlDdkxYQ0Q3czRmT3JJWUJPVVBydnZDdnNCU3EzVUtQc1NUaUZZV1NicEpIWjlJVGhqemFHU2NYOC03aDNkc1R1ZEw4Yk9zMFR3dkNaTTItdDZRU0liLUx4dG5qcExnOVpSTlJnNGNPbVFaNERaVko3WUV3YjQ3WEk0ZHp1cmxKdzB4OHp1TjhkUHJCQnlzU0dn?oc=5",
+   "t": "2026-11-19T21:40:56+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Fed Signals Higher Rates Ahead, Squeezing Bitcoin Treasury Firms' Fundraising Playbook",
+   "src": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWVnJ1VlhYcTdXSWRPa2oxRkZiRE9Ld1c0NlpJWjduTTQ3QzRrUmtiRHJZY2NyckZRUE9rTTAyZHJjQVdrTDJ3dkFLQ0hjZERvb2tJdE5YdTh0dS1UNy1Nd2xyU1VSREhOVkgxNjgzU3hBa1BtWEE?oc=5",
+   "t": "2026-11-19T21:35:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold Plunges More Than 30% This Year as UBS Cuts End-2026 Target to $4,500",
+   "src": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBScVM4RnF0T2dIZTJNTU9jNldReFJCMDEtcDhjMlY3dFh0anA4TE5DMnhFLTVxV1FYOExaakVqNVdsNVhuVDRNYV9VaGtFZU5iSFMxdU1VTGNSU2tnZmlMTE9xMk9MMWp2N0FCMS0xX2l1TlJLQ2c?oc=5",
+   "t": "2026-11-19T21:35:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "NEAR slips as US inflation surprise and Fed policy add risk for crypto via higher Treasury yields",
+   "src": "Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlF2R2xwY2oyeGZqUnFMc3BMUGNMcWQzSDZ4c3JSZmFFZVd2ZUoyRzRPMXpMRU1CM2s5ZlRLTXlTVzEyd1o1YzVGTkVOMkdMYlY0eGo4VmxOUTQtc2pqSEhhTWdNZ05ZQk1jVi14RDNvaGpQbnRmMlptakxrM0I1RnFaVjVVelloaWdLVjBGeTFhX0dtUjI0?oc=5",
+   "t": "2026-11-19T21:34:27+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "70 percent of Americans back targeted tariffs on steel: Poll",
+   "src": "The Hill",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2tERkktWWhMRWRpRmZCa0FMR1AyaTBWcFRzRUdqMjhVVFo4MmdmUkhlVDdrbHd2MFZWREotNHJuZk5nbUg3bDhVcmdCRGV6Y2RKelBuZE5aS0NrSFpCY0hTY3ByYUd0YmdvSFFsQkNPbHA1cGV3Z0loYTE0WHVjeU16b0HSAYoBQVVfeXFMTk15Q21qNnM4T1BENkwwMjNoWk1RZC1IUzRaQ1lfa0dxTThTT1dyNUxVQm9fLW9mbk1iRk94RlpIeW1aX1JxOTkyZEN5bUZVV1RQTFdzaHZ1cDlIbmtXNU40c0VyaUpVT1B6V01fUTRBUG1qNGEwMGZFaExKak9pUTVsWGgyZ2VpTVFR?oc=5",
+   "t": "2026-11-19T21:31:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Stocks plunge as investors take cover amid growing uncertainty",
+   "src": "CBS News",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVZjFqa0hNX2pnT1d4RGRQWEhNTDl6djZzd2sxOFZhOWE3UnUyZFpxWk1NVzJrNnpGbS02bDctT2FLMUNNdzV2ZW9lMjVrM01ZRHpBNmpycjBJSVRVaWVPdGlyazkxQWJLal9BSHo1Zw?oc=5",
+   "t": "2026-11-19T21:25:11+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Correction to Treasury Yields Fall Headline",
+   "src": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMU5XbnExOXp3bEp2Vzh2Ung5VFk3aG9zMG5oMkw2RW5JZVNPb3ptSi05NG0tSG1hMWtHZXlSYkdEbTIxMnhNdHFCQUpOcENoUHVNZWp6aUhUbThJTkY1amdpdGFMQlJOQUtvZTVIYXRlTVZQSnZsckxCS3JkQW1sYWRzVENhT2I5Z1dJeGY1YkRDVVd1d3p0bm10bEU?oc=5",
+   "t": "2026-11-19T21:19:16+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Forecasts from All Wall Street Banks on the Fed\u2019s December Interest Rate Decision Have Been Updated",
+   "src": "Cryptonews.net",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85NG5PSGxsX3dBQmJldk9zRkhmbEJMTzhsazVkM2FhZGdRNU95Wk9oX2xuay1iSFRRUU82TWRaQ1VyU3BwUkNoMk9GRUIzX3pDT1R3Q0YxSlU?oc=5",
+   "t": "2026-11-19T21:14:05+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite",
+   "src": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxqWVA1Y044cTZjWkE0VlVFR3hrRVh1S0ZsLW5VVDZfNlRsT0dmNElmUG1ocmh5Wi11eGhRZEFTbEJpbjVjM3F4b0t1TGtiYTZ5UFlMdFBZSXBQdlNUQ2gxMklZclRVOG9JSkVBNFRmMmVSckpzeFQyZ1RxN250RjZpWXJUTnBKQmhhRXBCV2FERE50STNlZU5n?oc=5",
+   "t": "2026-11-19T21:00:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold Price Hits 14 Month Low as Fed Rate Hike Fears Strengthen US Dollar",
+   "src": "Investing News Network",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11NzllaXVoVklUY3hXdWNpNGZYNUh1Q2NsMVpPdGxGWDBHOEZJTEdmdlZ6V1JhY3hSbXVlN3ZIbDYyMEgwNk9ISldEdlFwbzRwZXZMN09rNjBsaFlCMlkw?oc=5",
+   "t": "2026-11-19T20:50:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold drops 2% to over one-year low as hawkish Fed signals boost dollar",
+   "src": "The Edge Malaysia",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wOU11Y3YyT2dQZjRhRENHUE1Yel9vWW15WjkyTnlpMWQzS0hRaFZTVDR3d0RDQ2FLNlBmQ2pBWnpmdEU0OU5OUjdLRkE2d2M3?oc=5",
+   "t": "2026-11-19T20:38:57+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Importers Should Verify Data to Avoid Termination of IOR Numbers",
+   "src": "Sandler, Travis & Rosenberg, P.A.",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOXRxTXhpSHNfMGszOEZxWFIzbnNad3FfM3ZEa05RdEk5NGlOcGM5V2k0aWFZQzdDTEltQVBLT2FkYzVzYmtEZ2FVQnJTUEF5SWQ1d0xGZm41U0NaS290ck1RdWMwaUZUcXpDWUNYWnZkc1N4Z2NtajVuQVpVNldTOFE5V21nZktHUmhEZ28zbXhwN3BNcWhRWGVGNUlHUUlQOC14ZEJuOHNWQVNvbUxoNWFJQi1ybk54RV9QdmR4cEJUTDM5TVpQaFhjblRQR01weWc?oc=5",
+   "t": "2026-11-19T20:22:14+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Defense Export Controls to be Further Eased",
+   "src": "Sandler, Travis & Rosenberg, P.A.",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdzV1VUdweEMycUcxRUNMeERxdTlQeGl5RjNiVFQ1WXpxRFUzb1ZTM0dQN3VOWlUycXdwekRvRlhWY1pMRzBuNjlLNHBQY1IwRlhudTIyVWlwVnQ3Z0N4R0JrUllNTi0waWEyVzlhS2hJYmdpZGRoWmladzJpME9CbDE0LUR2QWJQOHR5QUJJMHQ5UWFFOC0ydks5SjFyaVE5SDVoR0Foend6OEcwckxiMXczcVB1Zw?oc=5",
+   "t": "2026-11-19T20:21:38+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Peterson: Nvidia\u2019s leadership crisis tests the chipmaker\u2019s role as the \u2018central bank of AI\u2019",
+   "src": "CNBC economy",
+   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+   "t": "2026-11-19T20:21:10+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "$4.4 Million Penalty for False \u201cMade in USA\u201d Claims",
+   "src": "Sandler, Travis & Rosenberg, P.A.",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeHdjM2cwN2JSenJSN0hDX1VyQVd6empTUXhfSDNZWlNBbUpUWmlDSEZpWkRFOFh3Qko1RWdTRVNxb2hlRG1yUnExT3NqVEdUZmpDWGFtanU5RVMyYk1MVzNSa04xb1hzMlpwb0FOVEtLbFRIMURzNHp2VVJvelMwSWxnLXBnTWpPa0pjOWRpb2dTMjQ5RHRfaGFubEw2aWxiaGJqZGFUZkFKZ0xTRHJGaTZvVnJ5cnd5WXgxXw?oc=5",
+   "t": "2026-11-19T20:21:05+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "AD/CVD News: Flanges, Folders, Olives, Pipe and Tube, Plastic Bags",
+   "src": "Sandler, Travis & Rosenberg, P.A.",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONW9DZHhjOXY3QmhsalVYenJuWXdsR1MyY3lmRVRONmwzemlhdnE2aS1FNnl6TUMweWcyYzFPaXJJWlpqdEpZbEcwT0p3WnJxR184Z0VwVGE3WEpxUERhM2YzZERpMUJWbU1CeFM3RUY2RUlBaWY1a3pHampTdmNiSGRIa1FSZVNIT2tpZE5kTDFVOFgzekxoNTRBTUM4MHJlZ2JnSFFwdVpfckl3VDY0bjJwVGlTcGFNMXlCYmxpd0lUUnBnLWluMmVIaFJ5Zw?oc=5",
+   "t": "2026-11-19T20:20:06+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+   "src": "CNBC economy",
+   "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+   "t": "2026-11-19T20:18:47+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "May Consumer Price Index: Inflation 2.8%",
+   "src": "Bernews",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QUU0tV1BIRWZDM0ZMS053cktiT1dPY0JHTlJyYjB5eGFvdi1hd0JCQ1dyMGFXSG9MazI5aWVyTUpWaHJKMTN3eEhZbzMyd0VENVhHdm9INzM0bEIwdHktUElxN0lRUTdmdEJpeDJXSFJGaVdySkE?oc=5",
+   "t": "2026-11-19T19:56:20+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "A strong debut for Anthropic\u2019s stock is not enough to carry Wall Street, and indexes drop",
+   "src": "Daily Herald",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rRWtqQUxzRm1zMVpxblgzS3VkZkJnRHlQcmlTQV9vUWZ0SVBvcVBDRmEzUHdkRzFQaVNqbzJOTXJGR29IY0poUTVablFiSHlESWJMdHJJN1VneEN6akpPRzZEajRiODlNT1htYjQ1TVU?oc=5",
+   "t": "2026-11-19T19:55:29+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Fed Officials Differ On Rate Path, But Predominant View is To Proceed Gradually",
+   "src": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU3JzZVUtY1RmUktxbVVTTG9kVHh6R0UtRFcyQ0doWkpTSHdoNGdNNks5Nml5SEFjYUJocXRnTUQ4SWk0ek5CY242OHZLc1JCTnFmVTJneVlybUw0ZnBtZVR6MW1SeGQyMXdiWjFCMlJKU01xTlVVVS1mX20yMzY3ZG04dXNLWlBfSk90LVR5LW1QWWNCT2tfdHB0NjJKUVhaZ0Fpb3d1eE5DWl9IWU5aVThWS3lTYUFRVGJZZ0NtSFlRQk1rUnhkWWxfeThRVW5OOHlF?oc=5",
+   "t": "2026-11-19T19:53:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Illinois Adds 11,700 Jobs in October as Unemployment Rate Falls for Fourth Straight Month",
+   "src": "Vermilion County First",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHRRZWZiNFhiR015MXhoTXc2eUVyNHFkVnUta0VleG1KU0RMbTktaGc4Nkx2VVhWaGtFSkJGWk0zd0k3X2JGbHh1RTA2YnhYclc2ZWNsa2Mzbm14aVlhdkY0TmN3SHM1RG5lUExuUDVsbWFybU1lSTBFeFAxZXpjZDhkOUl2b3daLV80LV9tbGZzOFh6d0tSaUZQamd4dkJNRFpiTGxkT1dhLTdCVEx4ZkpGcHd3X1VaNmlzQXBBcm5qY2V6cmsySy1lV3BFZw?oc=5",
+   "t": "2026-11-19T19:44:35+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists",
+   "src": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk5UVWpBQWFNVy1reG1ZeFlEdlQxcWlxWkMzTFNfUmFKdVFZaWRqNm4zTFo5V05Pd2o5b3hpOXNLeWJ3Tm9XdzR1aEk1VWd1S29vaW1GUVZ1OTU5c0hsUE5fWnhUV1RoakRubVlGcW14cHBhaER0VzZmeDVFNGZkeEVUb2l6WGhtTVlBUXBMTFFYNkMwalRYZmYzQUItWEhDLUhiVkdaOFBoU0Q4Vnc?oc=5",
+   "t": "2026-11-19T19:38:40+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "US Fed tells regional staff to expect lower pay increases in 2027, Bloomberg News reports",
+   "src": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTXIzWkhNZjhnb2RwV3lCQTVxc1pIWFBJS08xMU0yb19UejlUM3FSZEc4S2lmcG9EY0VPVnRXWTh1cjVIOUJmeXJNRHU0Xzk3dTFpY2lvU2ZGaHR0ZEJCelFVN0xzbmwtSVFUZjhkdzZMY2xlRlZ6UUxzWWtUU0tlRWhFV2dCM29UamhPai02bklqTzlTTUlLVFdJSlgtOUc2WXdVa3NDSjFLZXRwQk0tV01HTFl6YmphZUpCZjdHV2EwalBXWEdSWFViLXpRQQ?oc=5",
+   "t": "2026-11-19T19:36:43+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Wall St slides as Anthropic's debut fails to revive AI trade optimism",
+   "src": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcElhd1l5ZlEzOXRDeDlqdWhzSEkzWl8zQ0F0em9WbnNkWVBPSEZQQnFxLWNWRkFna0dGbi1zTTh2aW5CQUZENmRNNFM0UjkzQ2k0cm12WVVRbXRDek53UmlCYkxaQXpVYTJ1cHRGN2JyR29aaWM4VnN0Z3V6UElvd3RydDFIRXY2RjhYVUdpU1VMTW9jWnhjU2FCaWlXaFo4WFdDeA?oc=5",
+   "t": "2026-11-19T19:30:54+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold hits 14-month low as strong dollar, rate bets weigh",
+   "src": "The Korea Times",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnJqWHJ6czFqRk81TzE5Vmo2amp3S2lGR1M4U1NVX1VQZm5QdFczVVlQZGZXbWMwNHFBU0kwVXhGOHJsOHdwWllULVBiV3lSOWwtS3JWNG1NY3hacjIxQjN5YkxHOURYc0pUM3Nwb2lOb0dZY1hFVTQtYzlqTVgxc21TWEN1dzlRNGVnbHVHa3BQS1BTSGdVcFJ0d0NxRDdk0gGmAUFVX3lxTFBXTURVdXM3eTcteWNuZmRxbUtiY0drT2h3cGU5S05WV2Z3RVZnWmNfc280OGw3NkltVlRGdFROckY2amE3Z01GZWF1ZjdXUHVULWcwUWEyS1FoRVRoVEdlM0pPdGNsNE56WHBMa002X2w2RzkyUXRKeXlGY1F5dl9LNWdBc0ZYNVdyYVQyNTUxbmU2TGlKUnduajFIaHlEQ2tMTzdlWEE?oc=5",
+   "t": "2026-11-19T19:25:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold Price Forecast \u2014 XAU/USD ($3,683) $3,890 Upside Target on Fed Hike Bets and 19-Month Dollar High",
+   "src": "TradingNEWS",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3J5QzZVcnpMZUpYZ2h0cW4tWTJpbXE4U2dZRjZtZ1owNUsyNjY3YXBaXy1YOVc5dHBCazBBaWZyMkRpWFBjeERDbHN6enBpcm5jRzF4M0Y3U2tiTkhJOUUteWVkSTEydkZpNV9aNXA0UnM4X3BFWkRhaHRFdWxZZ2NVRzdBd0VyRDdqM1lKQ0VaekVzNXVvbVVjQUFVTFNmNlpIMHg4OEhwSFRobUg5UmV5STJycjlJdUs4?oc=5",
+   "t": "2026-11-19T19:22:51+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
+   "src": "Boston Herald",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pNXNmaTlVcGJHclRWSWR5c3NTUlcwa1VGeUFvNHdPVlF0NERYemdUVmpoRmNVU1lzSHNKLXZaX2t0SmpLU0RNRlJNZGZBQUpqcDBPUUpTQ3U4WDcwbnp2aVIwcXZhaERxOEd5M3RQdEZMdw?oc=5",
+   "t": "2026-11-19T19:06:24+00:00"
+  },
   {
    "d": "2026-11-19",
    "title": "Dan Sullivan\u2019s loss is an indictment of Trump\u2019s tariffs",
@@ -63,10 +406,24 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "US Treasury sells $110 billion in 8-week bills at high yield of 4.110%",
-   "src": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObnhDeFg2VVNkT2s4T1Q0SkcwWU1rbXZYUWF5ZXNsX19OejBBSURYdlJ1SWpqbEtXUW16TTlMaUpVV0JSUE5yWl9mMzNWbzFMWDAxWkN6Uy1zSUt0Q29IS0NmMTJOTjdfTUdqSXMycE5FcUFEa1h5QWt2M2VGbmNtZk1hZDZmLXFIYUNpV2pvWW5vZkRXbS11Nkp5bGFQNnF2d1FJY2V6ZW01NFdkMzB5dW9uMTRiWENhaUZ2UHRR?oc=5",
-   "t": "2026-11-19T18:45:40+00:00"
+   "title": "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
+   "src": "CBC",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRnBjZG05NFlOU0JObDJ1R2wxMDEtSUFqZy1iWFJINXNpSlhKbkpiYVA0WHZfdnBta0VjRkF4YWI0clF6MEdNdTFYVkpHamFJT2paaGU0Rk11eGxrRnRYOFVOWHFQc19NMHAtNS1VazhRcmFWdkJ0NlZ6MG5fODVfZkZscWxYbl93aEE?oc=5",
+   "t": "2026-11-19T19:04:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
+   "src": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5",
+   "t": "2026-11-19T18:53:15+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold prices could fall another 5% to $3,500 as Fed tightening fears grow \u2013 Razaqzada",
+   "src": "Kitco",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb21Fc1g4Vm1ScFJ0ZFRiU0N2Mnktb2tyVWFZMFZPVlFyNm9UanhzR09CXzdteUxJdFdDemgwbXJBSjktUzBObDEzZHJTT1lhTF9PT2Z6U0lnNkhhTUNnT1ozaWt4WmdIWENSXzhYdTVRVXBGc2dwMU1LR0duVy00czM0dHlmQkxfNVplZWo3ZmFoanAyVXktTFZPVGRuOGc4R0d1S1hjNk5wTDlHZzQycVlDUHRhNktLMGxJ?oc=5",
+   "t": "2026-11-19T18:45:27+00:00"
   },
   {
    "d": "2026-11-19",
@@ -77,17 +434,17 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
+   "title": "Trump Signs Thailand Trade Deal: Which Stocks Will Benefit?",
+   "src": "BeInCrypto",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84QW1YYVprMXBVYzlXQlAyc3Ewem16elh4TFFGLWpBZGdoTG56bG9fdGw2cmZCNmdEYVQxdkFZZFE0UFQ3MzJoQ1NxS2hPdGI0T2plQnJlLWV5dVNfX2ZaQ0JoSE5rLURQV0M1THhxV1NJdw?oc=5",
+   "t": "2026-11-19T18:37:44+00:00"
+  },
+  {
+   "d": "2026-11-19",
    "title": "Bitcoin treasury firms face slower buying as higher U.S. rates pressure funding economics",
    "src": "Traders Union",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeTlVbU94UGNNa21YbHlPQWM4eVQ1STVLOTgwYVhFOFJEZkpMS0xFdFFoTTlCNmlIc2hRbmg2QnZCNGF0dExHZUdOdkl2c2hJNlBESGVEOXhjRDREdmgyLWpBV2tCMDR2bTB2c0hHcDlkazFtU3pfbDVybWpaTEtjc2JPdTd2T1RkNGp4dWFGRFo5LXdNRFp1bFdRZVFSczF6algyYUsycw?oc=5",
    "t": "2026-11-19T18:32:34+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Anthropic blows past $2 trillion in Nasdaq debut, tops SpaceX's June listing",
-   "src": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
-   "t": "2026-11-19T18:29:14+00:00"
   },
   {
    "d": "2026-11-19",
@@ -98,27 +455,6 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Gold falls below $3,700 an ounce, lowest since 2025",
-   "src": "Daily Voice Of Asia",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUXFESFNtdk5mSzFTN2ZKbDVseDVQVm1ob0RfbldQaUlaX2IxSjNPTUNibGZ0M1dWMUxLX1lGOS1rbXp4OGZKZDNmOGlGcGYyaWkzc09lbDFKRW1XN2Rsd0Ywb201UHJMbF80bDU2cGJvNmM0UVdxa1VCdkt6S0FDVkxWQlNCajR4Q0E?oc=5",
-   "t": "2026-11-19T18:18:22+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "A strong debut for Anthropic\u2019s stock is not enough to carry Wall Street, and indexes drop",
-   "src": "Boston Herald",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pNXNmaTlVcGJHclRWSWR5c3NTUlcwa1VGeUFvNHdPVlF0NERYemdUVmpoRmNVU1lzSHNKLXZaX2t0SmpLU0RNRlJNZGZBQUpqcDBPUUpTQ3U4WDcwbnp2aVIwcXZhaERxOEd5M3RQdEZMdw?oc=5",
-   "t": "2026-11-19T18:17:55+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Wall St falls sharply as Anthropic debut fails to reignite AI trade",
-   "src": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-   "t": "2026-11-19T18:15:03+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Oil Price Forecast \u2014 WTI ($83.78) $87.50 and Brent ($92.69) $95.70 Upside Targets on Hormuz Tanker Attacks",
    "src": "TradingNEWS",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVJKZmVYOHhXUUx6eG5SSEduTG9VRTJuYVVKZnc0OHZVaW1DbEQ0N1gyTFlXTTFNSjR5eF9FdF9nSlhkQ0ZJZ3ZZdmp5eVhheVRBeFl6c2s4NFlZX0UzbmJWeVBYTW1NajVIdEd2YzFkTWpleFJYcm5Weml5YnZIdl9qM2dxT05EUHVvX3VqbkNtcDB6Y2d6NEtyWndmSjZiVXdRaUhDMWo1M3RwYTNQc2tzcndxZXVPbm5GaXExWk0zUQ?oc=5",
@@ -126,38 +462,31 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "More voters blame Trump\u2019s tariffs for raising cost of living than Iran war: poll",
-   "src": "New York Post",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeE5kbnRzSEY3NWM1aEZyMC1zUWJ2UHEtVjNsZGNJMmhnWmt6RVlZeEdMM1A3TG1aTjQwVXc0OTJRYWY5MXZlZkpkVmR1S2p6eVpBTDN0NjFDVDFBWmNoelRFZTFMRWZodl9EeXJ3cXJCUmNzX21hb1VMWGlkUl9hd2tVTFpYRDRiSzVrVzFPZy1Sa2JKektHSzNFLVZZRVE?oc=5",
-   "t": "2026-11-19T17:56:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "The average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide",
-   "src": "seMissourian",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY0RjOGtoUDVTampOMi1pMERXa3d5TDI4MndHMlRTNmE2QjhrSHh4bWR1T0VIcV9wd0drTkZLalRibGJWOGdFdC1uUXZiVGN4LS1uQXp4T2s3M1RBSndiRWQ3MlJzVVpXb1p3eGV4QS0wOFpCWTd2LTVwVUFBM1VNSTJ1Zm1qQTBIUVpIVmNFNmF1OG5nUzEyVkMyWGFMUzc3WldzWEdLQkYzbVdaZVhHeVd2OTV6cC1SV2hXdmhJS2w0YU1fVm4zeUtGRQ?oc=5",
-   "t": "2026-11-19T17:54:52+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Mortgage rates rise after four weeks of declines",
    "src": "Mortgage Professional America",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3ZRSFFfWjJQWWY1SGhzZjMybE1uaVEyV2lvUDM0Y3RnTTFDTU5BVzdnbHVNeURPV3JOeVBiLUhoNDZ6NmxlNWVTd0VKQnJJaGRFN1ZUcF9EWlJMZjJ4NVNDMEtNNEFfcFkwbWZpbEI5dHZxalpyNDktLWkwYjZkY05wVjcxbTdwZWhxczFjeW9jVjhBMXczY0xjS3lXaG1ESUQ0MjlDSUU3TW5STlhxX3JqQ2g?oc=5",
-   "t": "2026-11-19T17:33:56+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold Price Forecast \u2014 XAU/USD ($3,683) $3,890 Upside Target on Fed Hike Bets and 19-Month Dollar High",
-   "src": "TradingNEWS",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3J5QzZVcnpMZUpYZ2h0cW4tWTJpbXE4U2dZRjZtZ1owNUsyNjY3YXBaXy1YOVc5dHBCazBBaWZyMkRpWFBjeERDbHN6enBpcm5jRzF4M0Y3U2tiTkhJOUUteWVkSTEydkZpNV9aNXA0UnM4X3BFWkRhaHRFdWxZZ2NVRzdBd0VyRDdqM1lKQ0VaekVzNXVvbVVjQUFVTFNmNlpIMHg4OEhwSFRobUg5UmV5STJycjlJdUs4?oc=5",
-   "t": "2026-11-19T17:22:10+00:00"
+   "t": "2026-11-19T17:34:43+00:00"
   },
   {
    "d": "2026-11-19",
    "title": "Policymakers want rate hike but disagree on pace",
    "src": "Axios",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLenkzRHR2cnQwLVFSSFBrY2RhT0ZNbk1UZzdRSmFyQVhSa1UwN0w0WThGQ19aNGNOcnQ4YzhBRGkxZXFucjZpa2ZkMGwwcTRGNjMwQ2JFVmFoTVp0Q2Etdks2YmpWNU9JaTRSYi1TYw?oc=5",
-   "t": "2026-11-19T17:17:53+00:00"
+   "t": "2026-11-19T17:32:25+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "\u201cBuckle up\u201d Gold price reset [Video]",
+   "src": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYTZpcnhPbVBYbG5xVURzZ1RmaXR1ZXdySjYzUE8wdVVIamZWYmZ4elZjdEZPVUlaUHA5alNiajB5TUFVbDJpQ2xHUHlXTURJYUc2bl9zTlp3NlNET2FpYm10QVdqaEtQRC1GZWI3YW9KTU9ZQ3V1V29Ic1R1a1VuaUZkSkNUQQ?oc=5",
+   "t": "2026-11-19T17:17:27+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold Price Today on November 19, 2026",
+   "src": "USA Today",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcGUtdW1DVmpMQ0VCMjhNRHl4cTk5SVJhMG9nelA4a01zU1VYTnlSRi1YQjlrRDdJYmZwNlVrZnd3aTVCcnVVNEJhdUJQVWMzVjFtcjJPaU0tYlV6dHhXd00zTzRrWGNTQ2FUQ3JLSGlaMWJpYjV3b21iZVlGRE9hLWVBRVdLaE1jWmo5VWJFM3RqZHdSNzZCUUtVN3ktN3lMMWN3?oc=5",
+   "t": "2026-11-19T17:09:00+00:00"
   },
   {
    "d": "2026-11-19",
@@ -175,10 +504,24 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
+   "title": "Thailand and U.S. Declare Reciprocal Trade Talks Substantially Complete; LA-Long Beach Port Strike Deadline Hits November 20 After Record Imports",
+   "src": "Flexport",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWTVaa0FaUjJ4M2JoY1FHbnlRT25vakhXTTY0X1FYbHpSX2dTUUdHZXZvMHRCQVhhZmRjd1BuSDhyWWN2T3liN3IyREYtUlZPOWVuYVp6YWNKX1pVOFVpWE05TmNUaTA1X1ZULWp3c29PZHREeFZDYllZTXc1Sk5XNFY3VlhiSGdqYXVnSWZ0dTd5TTVJTFdoV0QxbkRveHVQMkdxSGFXMm11N3hvR2tFeTl4UjRLdDJLWl9PWE9WQkx5TUp4SGhwbVZ5ZkpTVTRfZ3IzNXlQUGUySHI0TUVn?oc=5",
+   "t": "2026-11-19T17:01:38+00:00"
+  },
+  {
+   "d": "2026-11-19",
    "title": "Stocks fall as Nasdaq gives up gains ahead of Anthropic trading debut",
    "src": "upi",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ3dGNC02WklKTEo2YjlZM2RLMml3Y0h2d1pTclF6SEdrdldZUU5WcUFKWGlSdHBBWEFiQmJDbE13Rmlrc1dWdjZEM2FCU25jdmZPV2hpeEtZTlh0QVl6RlNrY2txVEdSWkNkdGdUaTlHY2lTWWo2bmJGX0hoU2dySXBhOFMwdnlmQmZWUlpQLVZhX0lmdGdrUNIBngFBVV95cUxOVlAwRzlYTzIyQ2JzR0U2dUcxTkJsZS1CR2tyU1NzazBqR1plNDVXSFFzdUkzVTdfOGFURUhXeWpYZGdMaVZWWHRJMDh1VWFScWlGSXJ5NkZJM1pRWlhNNkc3cVZvYkduVHFWOGQ5NEFVX0Njb0RvUXNzXzAtU2xwanpOMEw0MHdUQkNYM3NOZXdnUF9yc1g5YjRnaGtfQQ?oc=5",
    "t": "2026-11-19T16:58:39+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Gold Slides Below $3,700 as Fed Rate-Hike Talk Raises the Cost of Holding a Non-Yielding Metal",
+   "src": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RC1tTG5JMVFfZmMteGNWWm9zNjJWanN2ajVxVnRFc3V3NDFrcXgtVDRmYWZXOXZEV05WZk83V0MxUGxicjEwOW1mekhTaGJLWjQxUUFCNl9yT01ZUThkZWEwc1JjemVYUVF2SEp3c1BXc3JVTWc?oc=5",
+   "t": "2026-11-19T16:55:00+00:00"
   },
   {
    "d": "2026-11-19",
@@ -196,13 +539,6 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Strong dollar, tighter Fed policy bets leave gold to languish at 14-month low",
-   "src": "Kitco",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM2drbXRBZVIwdXJOdTRyVk10Wm94MnBZVEhDWWY0MjJ2bTcxeVBfQVpYQTY5a0tGX05qS1B2R19tWVlVUXhYcmhib1lneHNqOWJDbHdVTGNLV2hQeUZQMGpocWpHWGRqY2Fsa1FnNlhuQmVFVnBZa09DRzJ6REJ3eFBIQ3VwQ080cXJjR3RQbjlUZ1hEOElQZnU5N0hqVnVpd3huWXdSNTdYa3ktWU9HT3BCdEZNSE0tbFBxRXF3?oc=5",
-   "t": "2026-11-19T16:40:02+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Trump\u2019s Tariff Troubles Could Give Carney Edge on India Deal",
    "src": "Newsweek",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHhySTN1bGlfS2N5T1JDeEMzdE5MMS1IY19aODRwandTY2V4U3lnOUZnSXpXVUt2OUg2anBKLXItV3cwa0Z6b2wyZW5uX05UV2ZSamt6aUUtZl9qSnVTeWdQdFQ0Q0NyOGNrd3lSUEtnaUgzcl9kNXg3d2JNUXQ3YXV4cVdYUQ?oc=5",
@@ -213,7 +549,7 @@ window.MW_DATA = {
    "title": "This Company Turns American Milk Into Canadian Cheese. Tariffs Are Curdling Those Plans.",
    "src": "Reason Magazine",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN1RHX3RyUWhwQklEUjZZX3B6VGF5WGx3VHZtZ1lOeDNSenZCd0ItV3pkXzZEanV2VC1SdmprV25ZYUJJNjcyUS1raW9rYVNRdEVlUk04cVprOXBYeGJCdmFNWTJIWU13b285OWM2M1BRUE9iWHFzbFJpeklzLTJOaV80aGpKbms4ZjJIRXdBMTBieWlMS1pneFZvYjBVcFZDNmRrOWprcFlWTmJDT0FqcTRVNmFocW55?oc=5",
-   "t": "2026-11-19T16:32:59+00:00"
+   "t": "2026-11-19T16:30:09+00:00"
   },
   {
    "d": "2026-11-19",
@@ -238,13 +574,6 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Three Reasons Why US Stock Markets Are Falling: Dow Sinks 800 Points From Day's Highs, Nasdaq Flat",
-   "src": "NDTV Profit",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZTlTOEZrbXY0bld5dzZxNVRJOVlXWnNBMklwVjdQVTBCS1dmRGNuWXpJNkFXQmN2YktCMWpGLVZ6VUdmTW1DVEVKclRadThmaEVhTzRrY1htMXdid3NhVkNYQjRjb09fVF83UUxnNVJyUE0xVlRWMUZzTWFFRnBRdk9WUGgzQTdNUk5vOHd4dHNaWXBYTENoR1FSSk5aVTNKT0pzOVN3TGVMLUR4LUUxY2hEOWFkdkhseDI1VlFfVWRHUFNBQzlWRnAyYS1ET2tINWlGU2hhTdIB3wFBVV95cUxQa1JLdFRMWTlHaEZ2a0V6aXhaTXVHbk1kUDR3QUNfN21zMlZLelZRNWhSQjFJUXM4UzQ4b21wNXJuVl9JbE51bHpWTjRKZmY0QlBDb29pdEkySjNkcXU1dE1PMUwyb3B4MHRNVmwzTjVHLTJlWGlsczRKWmxvVHV6aE5PeFNuZzgwYnZkMzR1NlpUbXpPb0U4ajF1ck1JTWJOclJIdjZKRkRzN01Sb2FDcDVWOVNGSkJlbU5aVmJiY1VrWS02TzFjOTQ5UDRRdXgtbVh6aHdFUkpHNzNNNktF?oc=5",
-   "t": "2026-11-19T16:01:06+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
    "src": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
@@ -266,17 +595,17 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
+   "title": "Tariff Trends 2026: Expert Insights, Watch the November 2026 Webinar",
+   "src": "Flexport",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMUpoVVM1U1hPaTg4Q0J2bkdLTE9XSTFNV2NsdElFaTE5M3NOano5WHh6UVJTN09peWE4M0toM3FvZDY4cmZhdDV6NFdZMGlnZmFlZ2JOYTJCdktQbVdMT0k0aTFNcUNNMll6SFVJYkxVYzRSOTlKQTNDN0tPMmxKc01ZMVhzR05VUEpycndpMDJNelFPWjdEN0psQjkwMHg1blpvaWRxZHBtQ19IVk8wYnZuUHdXVGJUMmpGRg?oc=5",
+   "t": "2026-11-19T16:00:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
    "title": "\u2018Anyone forecasting 2027 is forecasting data centers\u2019: The Fed is about to hike into an AI boom it can\u2019t cool, and Main Street gets the bill",
    "src": "Fortune",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObW0tVzQxXzlMSW5fdDEtdFIwNzh2Qlctak1jZDJRVDVZdGZVbWUzX3FFdWpvRjd2MFE1Tjdld0xGUTlfUkpHU2VJU1RtYThnMTVsRkpobU12TW5DUE9qbmpHbjNYZEEta01kYS1Sc25UR0Q1R2VIZmRERnJHTTE4LUpQYlZyWG8xbVdNcmxOTmUxSlg4Uy1ULQ?oc=5",
    "t": "2026-11-19T15:44:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "CRE Debt Markets Bounce Off The Floor In Q3 2026",
-   "src": "Altus Group",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNXzVTQVFhc21YLUFIdjJxU2hfOXVyWTF4TVBDYnk5T1NhTWJ1M0ZTRWlnWmpXY1dvd2xwVElfVHozV2NuU3d4LTVUY09ENHl6cEEyZ2FRcEtJSk5VWE4zZlFfT3VZUUFUWjBkMXdkVk1pWTRLTDVOdEhKaVpXYTFmRF85SW9XQ0ZqQlZ1WQ?oc=5",
-   "t": "2026-11-19T15:33:33+00:00"
   },
   {
    "d": "2026-11-19",
@@ -308,10 +637,10 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Nasdaq rises over 1 percent at open as Anthropic IPO pricing bolsters AI trade",
-   "src": "The Standard (HK)",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUZ1aFRjelRJNmRCTlJlNGJLYnVXZkhpMmc3LWluS1lQaWUzRlNvQk15aXozaEZYNmhHMk5IanlnMTM5NUhySmNPbmllRkFPQlBxRFY2aVNmaDlZR3k5QTdDaW9HbFJ0MTFUTzJTRlZ2Z1NQU3QtdEZaWTlyeEl3aWJHMXRVYkluZE44SnRwNW5Ed1FVckIwTVBlYTFhdUhyTTBRMXBRWWpzZWdlRng0eC01Wl8tZGN3SVZFNVF1YmdfNVVKQ0xrZktBWTI?oc=5",
-   "t": "2026-11-19T14:42:16+00:00"
+   "title": "Federal Reserve: Hawkish path priced in \u2013 UOB",
+   "src": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNDQ5ZW5taWlQNS1xVEVoRmVVNmIyM1VxcHBmN1NnWEpnY1lXbHoxQ2VJc3VrSUtPWnA4RDBfY3VPbkhSWWY1S2tORHZPTHpIZDdHQ2hOUU5iT1ptekdGcV9CZk1kdUVsQVR1VzdIWVV4bTUzTW1FeEtSTDY4bnp0YXRxRkFVRFNqQUZxWFBR?oc=5",
+   "t": "2026-11-19T14:33:55+00:00"
   },
   {
    "d": "2026-11-19",
@@ -326,6 +655,13 @@ window.MW_DATA = {
    "src": "Fed speeches",
    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
    "t": "2026-11-19T14:25:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Schiff Says AI Could Cut Employer Payroll Taxes",
+   "src": "Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OQktmalB4aGdiekdHSjJ3RVAtSFM0ZjJWeVdsWVBMemxieVJYdW03VEFfTllmZmY0TVByYkFiYko4SERJZTZieThOQ3k0V0wtVU1RZVI0dVo5aDVhQVdjMm84a1R5aUhvMGhocFM2R2N6bF9Nc2pGQ01OaGk?oc=5",
+   "t": "2026-11-19T14:24:03+00:00"
   },
   {
    "d": "2026-11-19",
@@ -350,24 +686,10 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Wall St set for higher open on AI optimism ahead of Anthropic's market debut",
-   "src": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcElhd1l5ZlEzOXRDeDlqdWhzSEkzWl8zQ0F0em9WbnNkWVBPSEZQQnFxLWNWRkFna0dGbi1zTTh2aW5CQUZENmRNNFM0UjkzQ2k0cm12WVVRbXRDek53UmlCYkxaQXpVYTJ1cHRGN2JyR29aaWM4VnN0Z3V6UElvd3RydDFIRXY2RjhYVUdpU1VMTW9jWnhjU2FCaWlXaFo4WFdDeA?oc=5",
-   "t": "2026-11-19T13:42:51+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Awaits Anthropic\u2019s Listing\u2014 PANW",
    "src": "Benzinga",
    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHl1UG5odS1iUllYWUlvM0NvMGM4c0dsZUhJdTNuN2dUdUE0Q01KLURSOE1Sd1N2akNuZ19VX3lqdWZvZjRsM183SW13aTBoYlhGZWZmV1RjcEhiQ09CdEhTS0EteVpLVThzVnlKRHVDSzM5Sl8tazl5Nmd6bHVqZkIzSjFBdFliMGFIY0pYS0ZVNlV6aDlqZVJqck5jRHJPZDk4Nm5xQXZnNTJOajJhaXhVcTdGdUdibk8tUEZCcWZZTnNXb2gzZF9yQWtJMVdWckhsa2poLWlydEFvV2V0WmFSLVNhRldqbzdOZHpIX1gwQ0tLTnc?oc=5",
    "t": "2026-11-19T13:42:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
-   "src": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5",
-   "t": "2026-11-19T13:41:47+00:00"
   },
   {
    "d": "2026-11-19",
@@ -385,6 +707,13 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
+   "title": "Why Tariffs Aren\u2019t Bringing Factories Back to the U.S.",
+   "src": "Harvard Business Review",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOENZS3JQdWY1MUlzRmJkV1RXWDI0clVhdEUyR0tGOFpXOGJ6RWE2ekRqMGJzLW9DVnh5dWF5VEl0eU1yd1hqQlBvRWRRVFM4cUQxM2Z2YVVUaVRTLXNGSnFNOVRxTFk1YVpLX2pDeUhSUVd3QjFyYkpXRTZGVklUWkdB?oc=5",
+   "t": "2026-11-19T13:16:24+00:00"
+  },
+  {
+   "d": "2026-11-19",
    "title": "Gold Price Today: $3,721 Thursday After Hawkish FOMC Minutes, Bull $3,800, Bear $3,650",
    "src": "FinanceFeeds",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR0dQTDNpeFliclRzRmNBQTFJTFFXY1BuTUMyb0JWdWk3MXFuTFh5N3Joa1dVVUx3Wk94OVE3SFJ3UzVUSzJmOUtMZ0dnVW9zMkFQLWtFaWdyNHIzOFBlejN5NWQ5bnBtZXl2bUEyZTlXdFJXbTU2OFo3dHZMNHZla2JQb0tiR0JjdFAxTGlPb3piWFhleHFqYnRhOTJYVC1KQ1Vuc3Fn?oc=5",
@@ -396,6 +725,13 @@ window.MW_DATA = {
    "src": "Seattle Red",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFo0ZmlhSVR6STRWUHBKel9fUE15M3VzUGhuSXpWb0FDVmpDZ1JpYmlzYTlTVGF2eTRKUGxmZEdHbndIUmlqUzV2VXh3Q0lMU0tjaVJYeUpuc3FGWktDME1BT3RqMmFUak5RZDI4cHBTTlFBdTFHZllaUFQ2U2FOQkQxNjMxckdXSlE?oc=5",
    "t": "2026-11-19T13:14:24+00:00"
+  },
+  {
+   "d": "2026-11-19",
+   "title": "Bitcoin (BTC) Carry Trades Set To Surpass Treasury Yields In 2027 : Research",
+   "src": "Crowdfund Insider",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSjIzU0xpQVN2b1NyLUlVcDJ4QlA1UUEtY1d3eE5FZEt2eWZ1NFNQY2gxNFNOSGxrMEZhc2xoejd4R0FVcWI4UzdQQWNVZEhDVHlRSzZlNEktOXZBX3lfSnBUQ1NBMEpyaTJtOV9kQnNhTU9HNDFMMFk3ZVZETGNxQmp4NzFGRFFJY1ZKMG1neWZZbnlOQlRMQk1UemsxUUF5Rm5Ga3NFbFl3SURjT1ZXYzZmaWxQSm1WbFlUaUVB?oc=5",
+   "t": "2026-11-19T13:06:38+00:00"
   },
   {
    "d": "2026-11-19",
@@ -413,17 +749,17 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
+   "title": "Should Holders of iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT) Be Concerned by a 5.07% Ten Year and 5.41% Thirty Year Yield?",
+   "src": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa1hpR1ZpSzdaUndQOC1aYWNrSnFZdkl1SDVNQnlGQVJpVFNDWVB5MlJTUGh3NXBTRVdkckIxZmFDLTg3UDREbkx5bG9yZko5XzdGUHRPQWRQOEQ0SW53TEl5M0JudTVEdkZ6cTRqY05uOXlYemlpUUMzNi1GYVBWLTZXMHN4NVBNQTRjNThTVHYzUmVXZUJPa2p1RUJUT21SeGw1TFctWnJQUnpmYkdPaWlxQ3VOS3dDSkFteGtvdDczRFItTU1sV3ZzaG1iN1JNeFpDRVJ3SWdMakFENnBwMHdJOFVOX1FrdW1vX0REQ0tWdw?oc=5",
+   "t": "2026-11-19T12:37:00+00:00"
+  },
+  {
+   "d": "2026-11-19",
    "title": "Oil Prices Settle More Than 1% Higher, Log Strongest Month Since March",
    "src": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1hxYUNYOVNkdlVySWM0cDd2VnBIOFY5MU56eWRhTzZvSjNBNDFjYzhzSnB2TS03V01tTUtRMU9pZURsaVdUR3BGa0VIS3VwMTA3QVR6ZWdEOGtyT1BNRUxqUXNyRnBsU2J1Mk10bjZtazlFelZCek8zSy1obXN5VzBGQlU3bnhzWHU2QU1xdGM?oc=5",
    "t": "2026-11-19T12:36:58+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Oil Prices Rise as Hormuz Stays Shut Ahead of Trump Deadline, Strikes on Iran Intensify",
-   "src": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1F3aUd5aVRidkNSWEw1Q3M0cG5sVlNyRWZIdzhzcGJOZlQxOUpPaTRJcHhFZGlxcVpJOHRkZ2RlT25qWVlObDZDN1FrLWVTTDFtbkY3a2VJUXpySlE2emlFamVTVGNJV0cxa2xQYWQtTXhYVnprVkUtMU9SdU1tY0RBc2pmR0FEM29PXzRrak5yM3BqUVhxYkVGSTA2N2pkQ0hiOGUyMnpoRms?oc=5",
-   "t": "2026-11-19T12:26:26+00:00"
   },
   {
    "d": "2026-11-19",
@@ -469,10 +805,10 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Gold Rebounds From 14-Month Low as Investors Seek Bargains Despite Fed Rate Hike Outlook",
-   "src": "Yahoo Finance UK",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM0UxcGtNNTdmZTQ5LWo3aXRDVWsxeElncjJSeXJxRnp6cXRDUkZOWGFMcjUtYk8zZjFjWHF5dUJ0Ni01Y3ctTUl0OU10VGRqcnR5MUNSOGVsRWFQc3Rab2xQaHdERWxYNWJKdFZsQUtIUFpSLVIybzRwaFZ4dDlOeQ?oc=5",
-   "t": "2026-11-19T11:00:40+00:00"
+   "title": "US political shift has major implications for marine industry, says NMMA president",
+   "src": "Marine Industry News",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS1kxZ1RQMlVkbHBGRU5UVi1yNlItQU1pRnBodmNVOUR2aGFOd3VOckVxaWNqZEYwcGdaeFBfcm5rQ3RGRVhjLUx0Wnl2SHg4T0xBR2lOQXJiQzBIekNhV3JIU0Jydk9lWllSdUk5RzZ1VmdsZzVORW5kYnJZNFRHQ0pZSDJDSXBPUDJOSEszaFpGb3FlNG9kZ3AtbC1Ycy1sekhlTkZZNU9hVzh6T0tpaTdCSkJHZw?oc=5",
+   "t": "2026-11-19T10:57:04+00:00"
   },
   {
    "d": "2026-11-19",
@@ -480,13 +816,6 @@ window.MW_DATA = {
    "src": "Fortune",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LVldTODA1VnhXU3N6SlR3SEhVX21UaEd6WDZQLW5zdDdybXJXTThQM04wcElBaXhIUDR5dFpqUkF6MVZLN2VyNFVWV2F3UTJjT3UwZE1yc3ZvZFlQQkxmem5UX2FIR096ZTBOOVVxWVU1QQ?oc=5",
    "t": "2026-11-19T10:56:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Trump Signs Thailand Trade Deal: Which Stocks Will Benefit?",
-   "src": "BeInCrypto",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84QW1YYVprMXBVYzlXQlAyc3Ewem16elh4TFFGLWpBZGdoTG56bG9fdGw2cmZCNmdEYVQxdkFZZFE0UFQ3MzJoQ1NxS2hPdGI0T2plQnJlLWV5dVNfX2ZaQ0JoSE5rLURQV0M1THhxV1NJdw?oc=5",
-   "t": "2026-11-19T10:53:46+00:00"
   },
   {
    "d": "2026-11-19",
@@ -511,13 +840,6 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's Listing\u2014 PANW, NTES, SLS in Focus",
-   "src": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMk5KdE1ua0hoRUdTeFlkeV9yZHRVcU1aU2Jkckp3NFBoT01CQno1VmllNjh4MlZWVVJHWXFtaVFpMHVFaGVuZjBpVVVKcWhJY0t0dnV5UTAyZHZjaVlNYmgwLW1oSGwtVi1Zc1ZlaGdOM1QybGFKakx1Ulo4cndWMzB3RFBtOTdIamZuOS1iZlppWllndXAwcHhjRm0wVXRyN3dHVlZUWWlRZjQ4cXNUM29pOXJwcXIyNnZoVlp6aFF3ZU9lcm9KLWF3Ni16RGlFSG1NbThoaW83cVA5aEVvMmVSUUlzWjJhdXdpRjlQR0Mzb05UNFp3Si1CYw?oc=5",
-   "t": "2026-11-19T10:08:55+00:00"
-  },
-  {
-   "d": "2026-11-19",
    "title": "Wall Street's Next Blockbuster Stock Split Arrives Later Today -- and This Industry Titan Has Skyrocketed Nearly 2,400% in Less Than 2 Years",
    "src": "The Motley Fool",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQak9jS2xKZlRCNXZGRWtzYV9Rd1NtSU9acWR5blJFbnZqWjFDVE5nT0JaaTh1dXRmSkQ0QU9hZUFmb3pHdWNqTkxORFc4X00tQ0kwQXM1MTdFZWVkMV9vSWhXTWtlUmlKOFFmTFJNVTVpZGhrSC1XUGFvMTFtdWNaVkxOYUtlWkpWemQ1aUo5OUEzdThXcGV2bFZTZTZ6b2wzMXNMS1ZreGpyN3VIdGpPbWh1dlliRC11ZVp4ckU1Q05sWlNNZVJpZjFFWDk2akJfVzdTLXVTVEREUQ?oc=5",
@@ -525,7 +847,7 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Treasury yields inch higher as investors weigh the state of the U.S. economy",
+   "title": "Treasury yields tick lower as investors weigh the state of the U.S. economy",
    "src": "CNBC",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNkZZT1lIeU1WR19KR0NSTzF2YzA4dnQwalkwYTZKRUpJOW9DWldwNHdfZ1d1eXFmcHU0WHNlTXVocTNaQks3Tm9UalRQUFFGOXp3VkNNdDRHV1Y5czJQZ29fblFmcENfSnZUQWJsU3FjeWNfVTFVM1kxZzlUUWhuOTBB0gGHAUFVX3lxTE0ydXg2dUZCNEs4WnNRc2ZhUmFxR19LRkRzREFLOFc0aWxWSDJFTFJXaEQxdTJtQkg5Smo4azh3bXdRc1VveW9aYk5Rbzc0bGRxZng5dVhQWXhCV0syX09tVHRxclg1b2hiMnJjSzZjSm9LUWh1azA2bjZVbkNkY3cwRmpYT2ZiSQ?oc=5",
    "t": "2026-11-19T09:52:58+00:00"
@@ -546,17 +868,17 @@ window.MW_DATA = {
   },
   {
    "d": "2026-11-19",
-   "title": "Treasury, Eurozone Bond Yields Edge Higher",
-   "src": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUxqWVA1Y044cTZjWkE0VlVFR3hrRVh1S0ZsLW5VVDZfNlRsT0dmNElmUG1ocmh5Wi11eGhRZEFTbEJpbjVjM3F4b0t1TGtiYTZ5UFlMdFBZSXBQdlNUQ2gxMklZclRVOG9JSkVBNFRmMmVSckpzeFQyZ1RxN250RjZpWXJUTnBKQmhhRXBCV2FERE50STNlZU5n?oc=5",
-   "t": "2026-11-19T09:40:00+00:00"
+   "title": "Treasury, Eurozone Bond Yields Edge Higher -- Update",
+   "src": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHFfQ3FNTTE1YWVzT2twY1c5c1ZORnlKYkx6VXdTOWtmc3h2Mk5jdmNZekVFYURhU2YtUzdkajRZbXZ4NzZUX29rZTBVOUZ1LU44VmpDc1kwcUVpYzNmRE9ic3puOEJhYjVrb2FOZk14SVJZRm9GN0lIWlJsdkYyWXJmaHFRQVB0ektiVERwSWdfRE1fYjM4UWdfVlBnMHdObUxZ?oc=5",
+   "t": "2026-11-19T09:43:26+00:00"
   },
   {
    "d": "2026-11-19",
-   "title": "Dollar eases after seven-session rally, rates and equities in focus",
-   "src": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHhRbnFTVzhQYVNrdm41Y01xWHFOa0xXc2hmaTdha0llek1WTlZUSnY2QUtEMW1EQUdwbGNuaVdSeDN1YXJuSTM2b1ZzemhsYUZ5Skx1VnZ2MzlyVU44UjFiSGVwWGJMRTRHVkpad05oYW96OHQ4NmRSc1hlSUZkcHQwWFVNTXRIY1FnMUQ4QS01ZjlIczF1MA?oc=5",
-   "t": "2026-11-19T08:45:03+00:00"
+   "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor",
+   "src": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+   "t": "2026-11-19T09:03:00+00:00"
   },
   {
    "d": "2026-11-19",
@@ -564,337 +886,15 @@ window.MW_DATA = {
    "src": "\u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oZFlrbGdBOFhyX2hUVFJ6ek5YcmNTLWswbUwzNkMtUExXWE50MERzWkQyRlBkT05ydjZBYlVtOG9Qak1WRFI4OHBiZDhpNDdSU0xB?oc=5",
    "t": "2026-11-19T08:43:03+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Fed officials expect December rate hike",
-   "src": "Northwest Arkansas Democrat-Gazette",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM2FCYl9YU1p4di11dnlmWEEzamFudlktc0dYZmVVckt5UXEtX1BTa19ybE9GMGNxYzNKeDRDc2RpX1ZUQkM1M0dHUmkyS1ZmLUpJbF8zTF9vd2c4QWN2Y05zN25oLXFxeEtrNEhCNWVidVNtekR6QkdIVTlMSm8wNldrRl9EQVNWZ19Ba3NlQm1NTDNJb0Fn?oc=5",
-   "t": "2026-11-19T07:53:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "South Africa Seen Holding Rates for Now as Oil Eases But Could Hike in 2027",
-   "src": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbkg3UU1ZcnFDbTBraUgwTUxmUGZrb2lDZ1o3RXpORWdrbGo0WDZaczJ4YTNSRkxURElJRVlGVHJidm94UC1JdXd6OENSU0d0ZExjTnFLOXU2WlJpUlg3NzBZaDdFb0g4SzFPbUxQOE0zamlWbmVVT0UwUFR6bmMxclhYMVBjYk54aWNpUmMzNURnVFhSU3JjenBySC1ESFBCYU9mUU9zSEVObU1hZHc?oc=5",
-   "t": "2026-11-19T07:33:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "BTC news: Fed wants to raise rates. Observers call it a mistake. Here's why",
-   "src": "CoinDesk",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPejJyZno1bWl0N1lEWU5SUmg4bnRHNFNfRWNDUUdTMXZsQ3E4d3ItNU52T2ltVzB5Y0tkTGlUOXhQZXdhUzNhSkNGeEdLQ2xZRXg3aGRDaks4RVVyWXk1c1pSaThGY1NkdG9NT1d4ZHJ3Q1ZYNVVkWlJOLVVZSXA5b1ZxZ25vSlBFYmdlSHdIekkyUndwTTlhaDdGLTM1YXVrWFBJaDBpZGtnQzVpZUdLSm85Y0dsTDY1d2tfbFlQSVQwejVFaC1VTlp3VmlIUVB4eExIZlRybw?oc=5",
-   "t": "2026-11-19T06:53:21+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Brent Crude Oil Price: $92.12 Thursday After EIA Build and Hormuz Mine Reports, Bull $96, Bear $88",
-   "src": "FinanceFeeds",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcmU3blZTdVF5LXdabmM5eDlJUHBjb01GcVExM1ZCbVdHRHdVeU9NT09IUmpqdjY0MzVMTWcxUUJVcWtOdHRSV1pIcDRBTlFONHhBOE9WRC1WM29Yd1RYVFNEQVNvVVhhY2Npa2V0bUhTWlhIbnhvUkU2S1A0U21zeTlGNlpDNkVpdHh5ZXZTR0xnZkI3QmctMHc4NVJRSnJEYnRN?oc=5",
-   "t": "2026-11-19T06:49:53+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold Price Today: Gold Falls Below \u20b91.31 Lakh, Check City Rates",
-   "src": "Times Bull",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmszYm9YQzlGU3diTWFqdEdZdVA4YU4tQUtmTnBQNVRDLXdEY2UtQTVMa18wX01OM1lvT2tfR25tbFlySUNGS3QxQThya2s3NHlsbXdwQTlpWkRBQkhsLW9NZXN4UzhlZ0dRb0dIVDNFNUI2UnYtSmdhYTNQT0d1a013?oc=5",
-   "t": "2026-11-19T06:46:14+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Why gold, silver prices are going down? What experts say about rate fall - More plunge ahead or bounce back expected?",
-   "src": "Livemint",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUHlkNmlSQ3lXUEhxOGN2cDFLVHgwcm9JRzVDT2I1aW53ZmNVZUlJck52WHpSVXhsSTNmdTNOWWRHNVlYNWZ4VTF3QWptcDlQYXBtcWpqSVJ0MlpGSm5SNWJxSENDWGcxVFRHOFRNRXgzTjAyaFpld1ppY2lCelZxV1RHTXFDVUNCUFZSOW8zakhJd01zaXpyaGtWR2FGaExTUkFRSkhWUElSZkYwdDl4MFdXSXIwY3NLbHF1WGg5X2I2NjU1blRMdHV0SnluWkpYNnU1WHFuOWV3ZkE2WGwxbWVzWWdqRm1MZHVaTmZXN0ZkaDN1YU1ZRndMeE0tZkZWZGxFZElhc9IBjAJBVV95cUxQSGFnOUVoOGtBdnVCMjVuNGNSS3UwaUZWU2RGNTQwMnhMMGVwb1BxcE5CY3hoRzFjWVR3MU42UjdFOFNXQUMzNDdZX3BJV182elVVcmtfSDJld1kydW9JWXBQanFNcDJlR3Zxd1dicVVZWi04aDloZUtnRVpRY1NVOE9XQVdlRlBZVndhMUZ1NTJXdkJDZ3Z6WGhmTkNtSTFzU3ZpRlVrUVppMWU2QktIcDdRYjJ2UUJXWW01b2F4RWl0SUw4LVhJQVRUdExMQ19DemdPQk93eVdVWkhKb2hSV0NCaV9HNXlsZl9MQ2pCOE1sVUl4UW8ydll1MkF5M3UxVkVSbHZFV1NueENY?oc=5",
-   "t": "2026-11-19T06:34:50+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold Price Today: Why Gold Has Crashed 30% Despite Heavy Central Bank Buying",
-   "src": "CaptainAltcoin",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU0xnVlB5TFBhODNpeUpFOVVLZlp5WWFZT3lKakZVcDhxcXJGSTRSa2d6MnR5ODUtWXdPQ2xodFJhbTl4eE56bmhnLWVxakFRSUowMlhDVmoyeWF4ZFY5Mlk4b1hIWjZhdmFwZWk5MGlPSXFrM2s5Q0NiZkdBUXVHUFByblZ2dE1QT3k3ZWFjWGNtZzZnU1k2SVQ0UUp1YVA2a3YtVERqaEQtQ2JrQUE?oc=5",
-   "t": "2026-11-19T06:32:16+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Sygnum Says Bitcoin Basis Trade Returns to Top US Short-Term Treasury Yields Next Year",
-   "src": "bloomingbit",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YMm1tWFdjWkhHVHVDVkxzdGk3a3JFbXA4bF9qQWk0LUhuUWFEaTJwSllhM2lQRlNzbDVna2pqX1cwekpkUzJQSFQ3cnN0TVVvNmJYNw?oc=5",
-   "t": "2026-11-19T06:30:45+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold Losing Glitter? Yellow Metal Prices Fall Below Rs 1,30,000; Silver Slips To Near Rs 1,59,000",
-   "src": "NDTV Profit",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWnZrWFBlY0I0TWtPQWZVTVZETzIxUHNUX1hFOWd6eGg5dWdKdUFTOWZLQS1XQ0RrNDloV0NZV0ZSWUJScmtIb3ZsS1EySTBRTDlVVlBUS0c2WnB6NEhoQTJBd2NncHN5RXFGMGZ3QkxXY09abl9IbksxcUxrQzUxdDJ3aHpQWFYyWUc4bDQ2Y2ljSmh1Xzk0bzRIRGVHbG5WcTFCR3pBTFk3UTJhNHJDT2h6OEEyWlFwNVFPTWs2d3ZYbkV2X2FJYTFPWGY5OU95RGF4bWV30gHeAUFVX3lxTFBjTkE0UmdfNkdjcFZGMXhzMnVIYlBqQ2NkakF0c3RNa2pNNEV2a0Noa2dVNmtzYTM4STBxQk5TOTRDMzZhZFowU2pwVWUwZkNIclNISGxYWVVKbS1PX3dpeV9rczZtazVmaldQLTNUbzlGMmxfdEJQbGNsRUxIcmJiUWxxMF9VM1RQbDBsS21wYmpMZVJVczRiaDNMcDZ3LXdSMF9RNy1VRXNOdFVSZXFPRGcyU0NScVZRZVg1NDZzcmZESHJTMl9UYmJDdmhSNlBPZEFjTjNndnVmQm9ldw?oc=5",
-   "t": "2026-11-19T06:30:08+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold prices fall for fifth straight day in India as US dollar strengthens | Business News",
-   "src": "Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlFTLXNzTmR0VGdwSTB1WkNyMTExUllwalhsQUdQZGd2UnBLZTJ4eVBiSTNwTmNJS0M1cjVMUkJvYlhKTENGWGVlS0tGc2RQSTJKWmVLdnVwR3NUQmxibC1TMmtPTzBPYWFrR3JaTWtWTEU0M3ZkRERpWkJGdnQ1amZ2WS1zTFhCd1EwWmpVaUU3WlA0ekpuTUpLSGdMdTNiNjZ0SEZVa3RnaER5YWVNYlRRa3d0S0JVSUgyd2wwS0RqLTVKQ19OTmtCTkFsUHFYcFRmcDROclM1WDBpdjFiLWNSUWFQVDIxQk5VeThQONIB9AFBVV95cUxPTll3Z1QwcmtEM3dyc0hfTmQ2REJ0NDBhc2NBam5PeFY5TDJNcGFib1NpaWtoXzE1Wmtxc2x5UzJGbzdwYms1X1RqcF9zQ28tSV9lakZPd2lBMVhLdml1bFZfbXBwWkxyUU1maC01UU9VUWFtbi1uc0p1SnVTWU10Mmd2dmtwZVU3S0pnQWJwWlNYSjcxSmc5YW9HYkpwYjNIX0RlZURVT3hCeW1qTDRkUWFSYUR2cndTNXRYSWFFSXhCMTQ1UWZ0Mms1d1QtWXFWMzFjdHYzVVg1WnM3Wk1XMU1LQ1VyZTdFVWlWaDBIZElKVzVE?oc=5",
-   "t": "2026-11-19T06:20:39+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
-   "src": "The Block",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNjdFbVk2Sm9Eenhtb3Q0V0F0bU0xRGpNeE5qMnVwS1dFRGYtcWcwWHlZbDlkYk9vYjJtdkRIUWh2U1o2UGFZOWVTbVBSaTdoTUUxSHVXQlpDdFVSWlp1dldubUxtLWtzTTE5QVhjMllyV1Zodzg0ZW56NGNQNGo3SGF1a25wbVhZU0ducU1ZT3ZpTk03dmFzSV9iNEVnNEpBOHJCYmhTSGR5dXIwYlY0?oc=5",
-   "t": "2026-11-19T06:00:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Oil Prices Steady as Hormuz Tanker Threats Offset Supply Glut Fears",
-   "src": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHQwd1VqSTI0ZXVmcXRQeFJQNVRYMFBNN2JTaHdoeEJYUVBWc25kanhycXYxZ1EtZWpiTUdZeldPbHpLblBpTlRSSkxaYnFBSTg1aDBQSGw0TDItSzNnR3BCRXgycVl6Q2JvcWZfMmF3R0l6RllhbVEyNVVaMHNXX3pvMnlDMkszbTdWNmdSZXc5SDB3UHF5blhvWkZBUktzck5fa2thUXhwT2tSMVRtdkJFWGd1UUI1OUt4bGZpV27SAcYBQVVfeXFMTUVJNWZuVUh1a1JBOUlER0xxYVlZeEx4ZDY5M1lxd2ZHczJ2dTdtQ3hTdVlSYXRzbm53MzZDU05jUU5fbG03MVZ1TEYtTEtaYkd5RzBzTlpWLWNmMlBCcmJLd29Fb1dhRjV0TnpPYWZNc0tRTUZ1ZUkyZ28yM3RlUmJ2ZHR3akNMYVBUbHNpeHIzbXU4Q2dhM3U3VWxDYjZLYVQ1ei1BellDdmwtWmFQN2s4UW1BTGkxSnRyandwUXlVUTZnSWRn?oc=5",
-   "t": "2026-11-19T06:00:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Fed Minutes Reveal a Bigger Rate Hike Was on the Table Before Inflation Ran Hot",
-   "src": "BeInCrypto",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yVmpWb0RGUHFaVkFhbUs5UjU4aE1LYlpXOExDUm43UTVvbHplUmkxZG1qYkFtbUM5UHNrYkxXM3FHUDNwUUtsTzZrU2dkTnNLU3laeDIwTWpMbFhkZmtnNWQ3Ul8zcVVncHNaczBB?oc=5",
-   "t": "2026-11-19T05:56:58+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Indian Government Bonds Find A Floor As Foreign Buyers Step In",
-   "src": "Finimize",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNHN6eVRfUmttc1lBVUdmdEtMOFhYeUcyT3dNbldJTEhjemR2M2kyX0VlSmJOYUlxWFlzRE1rNjkybkV6Zkk5WUJpWDhZMHRxSVBMUHFXOHpuWG9qUnkyLXRiemNaNmpha0RhdFBybTJfZWJjN0JmTDBTQjlMQXpRSzJzVTc2bHlBMnJQUDJWR1hvYnk1YXc?oc=5",
-   "t": "2026-11-19T05:41:22+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "S&P 500 Grasps At Support as Surging Hike Odds, Treasury Yields Threaten Larger Turn",
-   "src": "FOREX.com",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRXFLbDExOW1xc1F1ZllYVGhmdUJJWDI4X21CS3JYOE5zeTQwX2p1VS1kbUwzSFFSUWlaNWY4WHlSSnRaeEJyajFpYmZfRTJ5Umw5VWhBMkFYbHNlT1ZJc05xTlBacktFa1B2OHBMcTJXVnR0dy1lRnBjSG5CREE2RVdCVXhSckluT0tHNlVEanZzM0daZVZOWjl4WWY1eHhJdzdKWlktS25MR0dhYmVjN2Nha1dMMklvOVlWM1RranBQTG9SNS1EZGVWVHU?oc=5",
-   "t": "2026-11-19T05:34:36+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold, silver fall as strong dollar, Fed rate outlook weigh on bullion",
-   "src": "Business Standard",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQjVMcEdpOGpTODNoWGdPUFFVc1Ytb0k3MEV2YTdBTUpZUjVxYkJTVHhUcW5tWmlWWWxmSWN6NmFpd2xaNmFtaW9Yd01YdFBncHhLZEgwcm1LWm1rb192V1NjMGxOak1nVzR5bUJPSTk3MTdXdENid2k0Vk9rNkYxRnlqZ3pDSncxVkhiamhINUFmQkNDUTVjVU1jUUw0c1BWMFFmdGtkWmhBaXFWd3ZHZEVwSFJWZ1NEcFRBbWRLakE4dGF1SUMtOVRhN0wtTDZnM0E1eUZCRUfSAd4BQVVfeXFMUHJzVUMxS0NGSDJ0WWRKaTNfWXhoc20zcUZCM1JqQXI4cFRmTXpweFh5SlpqN05SYkU0UUFZYmhXS1RYOWFTQmdkYXB0QUFxUXZQcU1JRzFDMENKMWw4cGd6RzBfZVJwV0FwbDd2RHZNUGNJSlZYR0R1VnNDREdjZXhDMWQ3eWtTdC1jaUhxSlpyTkJVa3VwcUlWQVlXWVBwTnZrLTR6VFVwVjk5UEpHa2pPSnBDcV9TNzZOMEZaSEtVYW5JclJ6c0xOQVkwUy1TNDZrSGFqQUt0Q3NHT1pR?oc=5",
-   "t": "2026-11-19T05:28:19+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "FOMC minutes reveal Fed officials expect more rate hikes despite October pause",
-   "src": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSTVUOFlhVjFsaVVqSHVGb3BZYUZlRmdQaV9iajRyWS1yRjRFMWJNQnhZZ1RpOHR3eHM4ZFF5U3VCS1p3d2J4YzY5eHFtSGRJblVoRmtRaVhYRHhfRDcyS1Z5bnFGeDlQU1lQTFhINUFVNlE1Y1Zmbm1TTWRMNmhBQnpYYzA2VV9vRmI2M2ZIMkFBY2FFdERJRGo0a19UQnBBd1h0elJQOGs0bTJSY2diZG15N3dtWnBsTWxhVEI2R2pXOTdPS1JVTUtPTmpoWnVqdk1XYm5WdnVjekE?oc=5",
-   "t": "2026-11-19T05:03:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold and Silver Rates Today, November 19: Gold Falls to \u20b91.29 Lakh, Silver Weakens on Strong US Dollar",
-   "src": "India Infoline",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWJLM3Z0elhwZW9PSEZ4U1FlYVlTakpPOWZ0SnJtWXMyLWZiYUhPZ3RVanBsNDhsRXBrS0xwczhDQzBtT3dTWVZVbmpsNV96aVZ0RnVJMmluUUpYdFBXTi1IaFJzSnlwRFhfWVV3ZWFGN0hxUDVFMHN4U2ozV2NESXB2VG56QndPeENBNEMwSFFyeElwNUF3cWlsdWtneXhUUG1mX3ByWkNwNzRTNjlZRWs5ejViZm1QakJJNllBSk1fVUhMTUd1ODBEZE5MdVJqbVA2Vg?oc=5",
-   "t": "2026-11-19T04:41:10+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Treasury Yields Fall, German Bunds\u2019 Tick Higher",
-   "src": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
-   "t": "2026-11-19T04:35:48+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Oil prices steady as supply surplus expectations offset Hormuz tensions",
-   "src": "Aaj English TV",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOanV4SkRYOTJOTjFNR0JSYkZtMVFNRmRyS0pxa2R3UG14bVQ0MFQtZDNwR0ZOMURDODRJM09SUm53a2Fjc01hZVpnYVFaT2djczZRaWlIc3VjemVnTlJBUi1SdUZ3NXc0UHg5Yk1xV3pfQURaMVFMQmYzZnZQQ3M1TndkUU1MLTR5eGRXSm1IaFRKeGw4VlJLQUlvVmFQMWluS3RyT3NBdDdwSUh5NVHSAVNBVV95cUxPTmpBV3gycTFiazhRWk9oNVRreVJmZHZyelAtd082VFd1R0JaczdWcUlGNTkyM255M2lDTmpiX29nYVl3bmhxeW5FV2hxb1FDV0lUSQ?oc=5",
-   "t": "2026-11-19T04:16:27+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold, silver prices today, 19 November: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-   "src": "Livemint",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNUjNKUmZrSjlsYkY1UXBTblI2WHh6RGpnMkJOYkhwRm9HN1AxaktKdVA5d2tmTFpEMjFLQkNPaVM5c2xxdWFUMjRQWXpNNjNGV3dOWkd5c2kwY0hCNkxkUUlqNnJTQlhKY0xTeGpqUnN5aVJYaXNXTkszdmItbmVhb3JBSXV2dWNUVXQ2blF1YTRDNFRxU195T1pVRkFxSWZIWHZOaXg1MnVXdjhST2hibWNPNGlyNVd3R0hKd2NrZXRTYlpuUDRaVlF1a0xJZDY1b0V3Ym10Y2d3U2I0SGVIRVdhWm15eG9HT0VZWXRMenlsazVESF94UW56MHFtVXVUUkpBa0lhal9lZ9IBjwJBVV95cUxOeUQwOE0teEhFbUtMUkZiUXE2enpycHNRbnpPSGtUMXBIUEJ6TFBIX29KbV9STUZOQTFpZktSYWhpbk80OTF6S0RXSllKWWtjVDE5enNEZFFTYTc3MzNvRS0taGVKQzk5NE1pTm5xeHVZYkxpRG1aUzNLeWhvRmhMUEVWaklRam1lWjRlR3N3bDBKZ05yMVM0aFpMQnozdG0taTdDZmZhUHJrNk1QUzNUZFdLbkJKdjVHSFN0VlhmSUdfMjd0RUR6ZmZTdzRSX0lhMmdfZzJ3YXFtbkZ1Z2V5dXZRS3Z1QVdFMVNmNllnd1BQQ2Y1cDZpczhPRFppOEdtU24wN1hMLW1RTm4xTlBz?oc=5",
-   "t": "2026-11-19T04:16:14+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold, silver prices plummet to 1-yr low on global selloff",
-   "src": "The New Indian Express",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbkJDVjZEMUJLSV9vVkZtR1BKZ3huS1FHbTN0NmRnUlE5OVd4T2E2TmlwdnhrOGFTTExyWGpKTTVQZmRSN1dMTmJVQlFzV3B3V3RiTV81MHBCQ1hISjUzbWZaZWEwR3NpNmVLb245T0JWbXJkQWRYTl9YTDZqSDdUemJJZ2hhTC0tZ3MwQ3BIYmZIOG1yR3QtSzhCcWVjWTJtbUNNeURmYVNTTW1uTFYw?oc=5",
-   "t": "2026-11-19T04:04:49+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "US dollar up 2% over last 7 sessions, gold down by 10% in the same period",
-   "src": "Kitco",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0J3ZUduVkptNUFSMVI3VzFGR2RvZVlBWElpMjVNdXNFVHVNcWlDVzROVE5Xc1lHYnhkWFpUWjJDOHpMNGF4a3EwSHUyY1BDNWc1RVpFS2F3aGliMUZMNDd1UDhQdW9PQ0FCaTRSMzQ3cTVNbDhyV0FCWXZkajBnbVBwOWRhY0xoTW8zYndORk1yR0ZFWFMtc3RmVzN5R00?oc=5",
-   "t": "2026-11-19T03:29:10+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Job Growth Rebounds but Volatility, Rising Yields Cloud Workers\u2019 Comp Outlook: NCCI",
-   "src": "Risk & Insurance",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTHB3TmM5UmhBU0VQRjVGYkhvY1RQRkpuXzRucnMtOGtsdWR5MGxzcU82Y2VmLWt2NHIzNmZZUXdBWldMMkZXSlhWMmFYR2RfQjFUN3FwZnI3WVpJbER1YTMwWFNabHFBWHZMZVRjSW5IdWdwUnpsdVo2emJQOVVDaVJ6MTRTa3ZwS1BlQ3M0ckFEMnBZQV85RERzanBNbWZxQ0h2RVF1SUZDUnFkNWRR?oc=5",
-   "t": "2026-11-19T02:43:11+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Silver and Copper Lead Gold Lower as the Dollar Rises",
-   "src": "FXEmpire",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmc1UkNNZXdEZHFQMEdSQ0had05pX0Vzd0JRVmFGaEh1Rk1FRWMwbDhkS096MkRHOGczUFI2cW5uTEYwUmNITmZsSHphS1JVUFpEQ0J1WHJJSVAtY3FnaVVkWTAyQmtkSGY3ZXhHdld1YUhHV0dwZFRCTFVIOGtQdmhMZ2U5SnlaZ1Bfcnl5VHh2eGk4eEtad2dqcmFnaXBVeHBKSGxfMA?oc=5",
-   "t": "2026-11-19T02:22:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Thai Gold Drops to 14-Month Low as U.S. Dollar Surges",
-   "src": "Chiang Rai Times",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmS1dfc1BoVXdZQWJUNzUyamJEMFJ2ZmNwaExpdWMzT1VlbkZWWUIxV09LaGxLUjd0TEk2NXo2c21EZnl5UDB0RDF0NmVQdUJjeUJ1ZDQ4Q1haNGFKMEw3LUxUN0IxZw?oc=5",
-   "t": "2026-11-19T02:11:40+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "\u2018Nothing Wrong With NVDA Or AI Trade\u2019: Kenny Polcari Says Fed\u2019s Inflation Concerns Are The Bigger Market Risk",
-   "src": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRmk3OExJZE10OUFFYjVVZjBZcF9CMEd0SkV6TEcxZzZUWjdFRUlrcjNKTlFkb1BBREFkMVdVNW4yVFpSYnl0VGFucG1iZjhkUlVEdm9CMTF5LVhjRENpX0RNZm1hRHhmTTJoTjloVktFbl9zdHhpYTdSeXBfTmR0RDBJUnQ1UGp4ZmRLVk5NWlNRX1FGN1FV?oc=5",
-   "t": "2026-11-19T02:10:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold price slides by Rs78,400 a tola in 10 months",
-   "src": "The Kathmandu Post",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb0lXWGtPNDEzU1lTZjd3dGt2RVZPbC10eWNhbTluRmh2V1BWRFR5cjZudFlwUnNoWndyemw1RkJYYmFXVWkwRHZMbEIwY2RLOWc3NDBEeGZvVUE4NV9keTVOaGJCU20td1NTZmhrTFhKNnJyNVUxWEdiZXJfNDJzYWR1dzNNWVhqVGJ2MzNKUFQ?oc=5",
-   "t": "2026-11-19T01:52:46+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Fed Minutes Leave Door Open to Larger December Rate Hike",
-   "src": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRXlyRVFoN19OQXRuem5FR1dUSkJxR19GMnItQlNRaGhIMTB5OWFtQksyYmUwNW1kTjJSS1I1dy0zdm1vWmhkYVVFaEhmRzd4Wmo3d1ZsVU0xeFE4WGc1M2MxSEtxcVBDZ3ZNU1hZcEQ0SzNqd1k2c1Z2S2xvb3FybzMtWVR5bGtlMVh0REYycHpRSHVDeThtX3pteUFDendTcGlZ?oc=5",
-   "t": "2026-11-19T01:35:03+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold Falls Towards $3,700. Schiff Says Fed Risks Financial Crisis in Inflation Fight",
-   "src": "BeInCrypto",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rc0Njazl6Z1BhVm9LYUE4R1IyYWlDSG9jZ3U3YWNuZE1lMHV2Z2ItclJSWi1IN20zdk1nS2RzTUNJc0NCMWZ2N280ZHZQTkxDTl9EUnpPRjM2ak9mbURFWVFB?oc=5",
-   "t": "2026-11-19T01:05:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
-   "src": "Al Jazeera",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnRZZmk5aUVnWkxwOUx3YkE1S3ZwTlF1b2cwNE5RTjM1dE5tSERlZ0RObU8xTERqdUpaN0tMYWF3N1VZUTI1ZE1VQUNWY3BLb0VjbkRYQkoyajRBMjRuaEtrTzJuaGpLOERCcnNLbkVhUVRnOFlMbHhYU2duc2V3MWljcG81MUU0MEpzc3lOZFBhbDBSeGpJYjJNaWl3WjF1a002WGF2VVAtSERiX2NQOU8tZUNRalN60gG-AUFVX3lxTFBfY3BqSmFLU0RaVTh1VmVFeDdRLW83dXQ5OVItc2VTcXRHTDZ0ZG40N1I4cDJSMk1yLUlYM0tKb2JPVjQzdTNyU1pDUWRHM0lHb3NULWw2SjRwaFhPYjdUYXJtWmlFQ3p6NmE2VXRkVS1sM2V5ZHhnejlfOVZzX1dZVkFya2ljN3lRUXVUV3NYcFltSDN1SlhMT2g3Rm9YR1NxMEpZVDhheS05ZVJzSXhwMFFpRi1Wc1Q3THdqd3c?oc=5",
-   "t": "2026-11-19T00:50:23+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "Gold hits 14-month low on Nov 18 as US dollar strengthens",
-   "src": "Nation Thailand",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzNWxXdWsxWUY0RVdmdDRuSWtYcDhieTJjTEdySk0wN0tXcVdqNG5UcXAxTFhxTTVPY012VHFPMnROMWlvMWVCclBuU2JuNWVEdUFiVnVxc0dUSFh2MVo0V1JzLUJmOXg0aDF6R0lBaXJlSWZ0OXc?oc=5",
-   "t": "2026-11-19T00:44:00+00:00"
-  },
-  {
-   "d": "2026-11-19",
-   "title": "TREASURIES- US two-year yields edge up after Fed minutes, official comments",
-   "src": "Metrobank Wealth Insights",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV1ptcnJXYnpIZkpjLWUtdFVxR240UXpCVjBWRjFLSjY3bkZENGhreTJ2aXpYNnk3SHE2WTlFZXAxWXhnMzhMTC1ZSXhwYzg2bGdtR1pvSE56THA3V2IybEFwNkN5LUt4cW8yYzc1VllBc0hBdXRKcXJvOXBlekxBbTZFMFRLd1AyRGM2MkFKTEZISkRsMHNKTTZfOWtSSE9pOVJVeV80RWFGOEl1anA1N0tIYkdBOXZqQ2c?oc=5",
-   "t": "2026-11-19T00:05:25+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Iowa soybean farmers hope Trump-Xi meeting ends remaining China tariff",
-   "src": "KTIV",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRlE0UHRPZm9XRXpUUmN5Z1JfNFpZU29wZU5NLWZxaV9yTW5ZM2R3eFV6QkFFbFpOYUFSb21tZ1AyX3VNZzVqR0Etc2dlaWNOa2F0VUxQcmhSMWcxTS0wb2tteXRJNzJMbHg1RHowemJJUUVOMWNvcm5nZUl2NjhWcVVaU281QjA5eEU2R2RfZGhXRHBSRVhCNExiWHZwbkN3bU1kYmtR0gG6AUFVX3lxTE5NZGVTLXBtcGE1TkoxMEVoM003Q0c1Z3hpRnZVeG5Vb1B1WWQ3bjVSajkzR0dqU3lISFRNR1lnWHJjVnRFS2pnRExObHdZWWt0YnY5YkJzVGUzNE45M0t3QzlUMUs5Z0ZfQkFDcTIzb3BDSEtPWGtKOHlnbU9QVVJIMExPdEhFS0swTVRTNk80WnpfMkVjSFJHZjY4NXdkaC0wT0k5OW5OVXB4dnFYNmFxdGNMV2xBMUJzQQ?oc=5",
-   "t": "2026-11-18T23:44:00+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists",
-   "src": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk5UVWpBQWFNVy1reG1ZeFlEdlQxcWlxWkMzTFNfUmFKdVFZaWRqNm4zTFo5V05Pd2o5b3hpOXNLeWJ3Tm9XdzR1aEk1VWd1S29vaW1GUVZ1OTU5c0hsUE5fWnhUV1RoakRubVlGcW14cHBhaER0VzZmeDVFNGZkeEVUb2l6WGhtTVlBUXBMTFFYNkMwalRYZmYzQUItWEhDLUhiVkdaOFBoU0Q4Vnc?oc=5",
-   "t": "2026-11-18T23:29:32+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Oil Prices Flat After Iran Says Dozens of Vessels are Crossing Hormuz",
-   "src": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRHRlT1VGMFB1d0txZ1NNN09lRktZLTh3OExQOUQwRDhiVGRQN1NlWGVjMXlKU2pZTDlCYktPTEFZbndtdVF3aFd6YTZ6SXlxVkZFTUw5T0I1dXEyVzVUVXFKbVJCYXBUbFRablNqdGRvYlZkZ0xOVWVxMi1XLWhKVVZfZE1WNVJBRmlYMlFPa2N3c190M2VFclB5eTM3ZjlCSGc?oc=5",
-   "t": "2026-11-18T23:22:16+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Gold and Bitcoin Are Falling Together: Is a Strong Dollar Triggering a Global Liquidity Squeeze?",
-   "src": "Cryptonews.net",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OMFlLZzdNQllOWTJCcU15RTh0d2ZfUkpNT1F2M0tYdTVuZkw1ZGU1RzI4YlJJeFJ1bVVZUnMzb1cwb3RzSHVqTS0yang4djJoQm9oVF91WXE?oc=5",
-   "t": "2026-11-18T23:21:53+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Oil Prices Drop as Investors Weigh Potential Hormuz Deal Between Iran, Gulf States",
-   "src": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWUVFbXlwMlkxTDJjOEZMcHFaNkNxamJzVFhhOUx2cEdQYzhVSVdKMHlmbzdfdUo5ZW1BRlhLXzR2bDVPU2FDYnAxSlpYMmVzYXBlYjVQeloyVXp2Rk1fTjJCcEpYMlYyeGRCSWRCSVVOeUw1UXZtbkxyWjZRSXB6Ym0tTllrTFBPMXZQaVR5STl0VTdGcGVaRkdwbWk0UVRxMW5qZnlFLWFDNERYNDZRSQ?oc=5",
-   "t": "2026-11-18T23:03:08+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Fed's Waller Wants a Half-Point Rate Hike in December. Warsh May Have to Promise Another One Instead.",
-   "src": "The Wealth Advisor",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMkppVlVFSzJ4MWRXQzBrcy1SUjhXSk0wYjlpdnZfM1V5RnJRUUF3TXBTeVoxa2ItUXpOTXJYT29DdTNCVWhfM0hGZW81Y3QybGd6M3lKVFhWS0REVllwU3hnUnoxZHlkRkVmWFA3UVV4SVZDa25fNEtWZzYwQXMxYXRWRlpyanB3OFotZzJrc0NWN2RoVjZJZE1UN0g1THBPQmxaRnN2SkU5QWJjVFRlZmtvN3dJM2p1UHN3bXFQU2RuR0lEUDVvVzB6VQ?oc=5",
-   "t": "2026-11-18T22:40:35+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "US inflation surprise and Treasury yield surge may deepen liquidity challenges for NEAR and crypto assets",
-   "src": "Traders Union",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbElRcDZRcTZkLVZ2Q05fa2t1SHA2bFVucWpKaFV0V3llMVhwUldzNEdiSEVBelVEb3dWOEpvMS1tTXZ2TjZvaENLQ1lpdmFnU1JVbkNId0xKM3BLdUhjT3lzOWFYeEtVdnV1bFNiclRWSDVHZG1aUE4zYTZzX003d05YWmxrTVI4aUc0OTdZdw?oc=5",
-   "t": "2026-11-18T22:36:27+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Gold's Rout Accelerates as FOMC Minutes Bolster the US Dollar",
-   "src": "FOREX.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRl82MG9GSGRlU0NpaFRZR3JKcmpHU0gtSVhYNDdLdG45WGc1UldFeDBhVm8wckgzcmlsa0RqUEpnS1dXNWs4LUFLT2s5Yi1pbXV4ZGd4SHVlWHgzcVBnOGtGSENGVmpxLXoxUml4UFQtWHlaaUFtRlhkb28tNGpIdWozY1ZoNUZGeUJJWGdXUkJNNVA4TmNRYTZwLS1uWDRlUDJ1eVV5SlRtLXRh0gG4AUFVX3lxTFBlYkczdjBEaXRITVdEa29UUTE1UU1Xci1xYlE5WFdzWUxoaDRZaTFxNF9RdEhjSXlpOFFGMmIwUy1CSGNpMFBha2oxamdBaXFxZEQ1QmowUk8tOWpjWTdpR2xrWkxjNG1zdllUQVg0QjJubWd0c3RJSkQ2bmJzS0s4cG5rLUtYWXNjbUs4ZkJIREg5SmRYMlFVQjlUSEhBYWlDVWhjYlNBZ0w1aEtkVXNMS2pPZHdRRDA?oc=5",
-   "t": "2026-11-18T22:19:48+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Federal Reserve Minutes: Fed Officials Weigh 50 BPS Rate Hike Amid Inflation Concerns",
-   "src": "Cryptonews.net",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HZ2ducnpBekpULUNSQVFPWnRMcjVGWE9vTEdqVmxoelk2WndoS21KODVEaXp2Z0hBSk1OaXJGTG5Mekg4aTNIZjFGbGEtRUZPdGM5VmgyWDI?oc=5",
-   "t": "2026-11-18T22:16:37+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "What to Look Out for in Economic Data This Week (November 16-20)",
-   "src": "Kiplinger",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-   "t": "2026-11-18T22:12:03+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "What October Payroll Growth Means for Legal Jobs",
-   "src": "JDJournal.com",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaDBWRlA5aHFJWWVEUXhIV2tXbkFXZ0diRGFySFdYMW1PTFRKcUxhRmRKMGZXUXp4dF9pN0JPZlR0aWFBdWZDSFZRMlhJVHZHZXVCbi1pS2paZlZLU1lpN05wampuZVZpLWluY0d0MzN2aWRHMVlibW1TcGdLZDh1Ql83bmpmaXdTTE9R?oc=5",
-   "t": "2026-11-18T22:00:00+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "The Fed's next moves come into focus",
-   "src": "Axios",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KbmF6LXJjeHdMZ1c5SHl1d0FreWlmM1NHX1NKbkhFR0EzV3NnSXlZaVgyNXNmbGdBeERPQ2xPaUNRN2lhX3VLOTJfaF9XTmpFS3BQcDlfaU9vMExQeEYxbmJ3U1hlYTZOUkNaUw?oc=5",
-   "t": "2026-11-18T21:59:21+00:00"
-  },
-  {
-   "d": "2026-11-18",
-   "title": "Payroll Co. Accused Of Failing To Protect Employee Data",
-   "src": "Law360",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcWVQVXFVcmNvejdPYkpLMG1LelRtQ3lrWEVHVmRHZ0dudWxiWkpROUd6R2lJLTJPTm4xdGZHT0JRSnhleWJwRmZpUnpxSkM4bnZKaVdjMWt5c0EtUDUwZExPRndGbkloZEhjanVIb0REU1kxSmMyTnZESktqUGx0SHpZUnB4MkZkQURROW81blhvTzk1RVhjQlZUTFVrbDZvcXVqcHYzbzJjQ3ZieEJOWTBsLTBsd9IBckFVX3lxTE82djNGTTFKbFQ2T3E0b1FnOEhtOWxSWEtVWG9GWkx5aUtrWnB0eTRiMkpNYV9DNUk2ZktHS3FqQVVlQkhMY190VzlzbzVnaExRWUVQQlRMQmtEWjM1bmFhVWp3LWxmSGFYUXQxNTIwYkVHQQ?oc=5",
-   "t": "2026-11-18T21:57:21+00:00"
   }
  ],
  "stats": {
   "feeds_ok": 14,
   "feeds_total": 14,
-  "raw": 624,
+  "raw": 634,
   "kept": 120,
-  "newest_t": "2026-11-19T19:05:44+00:00",
-  "newest_src": "Washington Examiner"
+  "newest_t": "2026-11-20T01:15:46+00:00",
+  "newest_src": "CNBC TV18"
  },
  "report": [
   {
@@ -939,23 +939,23 @@ window.MW_DATA = {
   "quarantined": []
  },
  "read": {
-  "asof": "2026-11-19",
+  "asof": "2026-11-20",
   "summary": [
-   "Rates: the 10Y yield is 5.07% (-3bp on the day, +9bp over 5 days); 2Y 4.80%, 10Y\u20132Y +27bp. Over five days the curve showed a parallel rise.",
-   "Policy path: the 6-month bill yields 4.43% against an effective funds rate of 3.88%, so bills price about +55bp (+2.2 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.",
-   "Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.19%, -1bp over 5 days.",
+   "Rates: the 10Y yield is 5.04% (-3bp on the day, -6bp over 5 days); 2Y 4.76%, 10Y\u20132Y +28bp. Over five days the curve showed bull steepening (short yields falling faster).",
+   "Policy path: the 6-month bill yields 4.42% against an effective funds rate of 3.88%, so bills price about +54bp (+2.2 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.",
+   "Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.16%, -8bp over 5 days.",
    "Jobs (Oct): payrolls +165K, 3-month average 137K (the three months before: 28K), unemployment 4.1% (+0.0 pt over 3 months).",
-   "Stocks: the S&P 500 is 7,229 (-1.3% on the day, -4.8% over 5 days), 7.5% below its 66-day high; VIX 28.0 is elevated.",
-   "Oil, dollar and gold: Brent $89.60 (-6.5% in 5 days); dollar index 103.89 (+0.7% in 5 days); gold $3,675 (-5.4% in 5 days)."
+   "Stocks: the S&P 500 is 7,176 (-2.0% on the day, -5.5% over 5 days), 8.2% below its 65-day high; VIX 28.4 is elevated.",
+   "Oil, dollar and gold: Brent $89.93 (-6.2% in 5 days); dollar index 103.88 (+0.7% in 5 days); gold $3,583 (-7.8% in 5 days)."
   ],
   "leads": {
    "dec": [
     {
      "key": "bills",
-     "n": "The 6-month bill yields 55bp above the policy rate; after a normal 5bp bill premium that is about +50bp (+2.0 quarter-point steps) priced over six months, a rough read of the market's path",
+     "n": "The 6-month bill yields 54bp above the policy rate; after a normal 5bp bill premium that is about +49bp (+2.0 quarter-point steps) priced over six months, a rough read of the market's path",
      "v": 1.0,
      "w": 0.8,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -963,10 +963,10 @@ window.MW_DATA = {
     },
     {
      "key": "y2",
-     "n": "The 2Y yield, the market's read of the Fed, moved +7bp in 5 trading days (now 4.80%)",
-     "v": 0.58,
+     "n": "The 2Y yield, the market's read of the Fed, moved -10bp in 5 trading days (now 4.76%)",
+     "v": -0.83,
      "w": 0.6,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -974,10 +974,10 @@ window.MW_DATA = {
     },
     {
      "key": "be",
-     "n": "The 10Y inflation breakeven is 2.19%, -1bp over 5 days",
-     "v": -0.13,
+     "n": "The 10Y inflation breakeven is 2.16%, -8bp over 5 days",
+     "v": -1.0,
      "w": 0.4,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -985,10 +985,10 @@ window.MW_DATA = {
     },
     {
      "key": "oil5",
-     "n": "Brent moved -6.5% over 5 trading days (now $89.60)",
-     "v": -0.81,
+     "n": "Brent moved -6.2% over 5 trading days (now $89.93)",
+     "v": -0.77,
      "w": 0.5,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -996,10 +996,10 @@ window.MW_DATA = {
     },
     {
      "key": "vix",
-     "n": "VIX at 28.0 (elevated): stress makes the Fed less willing to tighten",
-     "v": -0.84,
+     "n": "VIX at 28.4 (elevated): stress makes the Fed less willing to tighten",
+     "v": -0.87,
      "w": 0.4,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1010,7 +1010,7 @@ window.MW_DATA = {
      "n": "Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience",
      "v": -0.0,
      "w": 0.5,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1020,10 +1020,10 @@ window.MW_DATA = {
    "cpi": [
     {
      "key": "oilm",
-     "n": "Brent averaged $95.37 in Nov against $108.62 in the month before, -12.2%; oil feeds pump prices within weeks",
+     "n": "Brent averaged $95.40 in Nov against $108.62 in the month before, -12.2%; oil feeds pump prices within weeks",
      "v": -1.0,
      "w": 0.8,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1031,10 +1031,10 @@ window.MW_DATA = {
     },
     {
      "key": "be20",
-     "n": "The 10Y breakeven moved -16bp over 20 trading days",
+     "n": "The 10Y breakeven moved -21bp over 20 trading days",
      "v": -1.0,
      "w": 0.5,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1047,7 +1047,7 @@ window.MW_DATA = {
      "n": "Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience",
      "v": -0.0,
      "w": 0.5,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1058,7 +1058,7 @@ window.MW_DATA = {
      "n": "Payroll growth averaged 137K over the last 3 months against 28K in the 3 before",
      "v": 1.0,
      "w": 0.5,
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "src": [
       "live"
      ],
@@ -1067,30 +1067,30 @@ window.MW_DATA = {
    ]
   },
   "curve": {
-   "d": "2026-11-18",
-   "y10": 5.07,
-   "y2": 4.8,
+   "d": "2026-11-19",
+   "y10": 5.04,
+   "y2": 4.76,
    "y3m": 4.34,
-   "y30": 5.41,
-   "d10_1": -2.999999999999936,
-   "d10_5": 8.999999999999986,
-   "d2_5": 6.99999999999994,
-   "move5": "a parallel rise"
+   "y30": 5.4,
+   "d10_1": -3.000000000000025,
+   "d10_5": -5.999999999999961,
+   "d2_5": -10.000000000000053,
+   "move5": "bull steepening (short yields falling faster)"
   },
   "policy": {
    "effr": 3.88,
    "lo": 3.75,
    "hi": 4.0,
    "gap_3m": 46.0,
-   "gap_6m": 55.0,
+   "gap_6m": 54.0,
    "gap_1y": 74.0,
    "steps_6m": 2.2
   },
   "breakeven": {
-   "now": 2.19,
-   "d": "2026-11-18",
-   "d5": -1.0,
-   "d20": -16.0
+   "now": 2.16,
+   "d": "2026-11-19",
+   "d5": -8.0,
+   "d20": -21.0
   },
   "labor": {
    "ref": "2026-10",
@@ -1102,49 +1102,49 @@ window.MW_DATA = {
   },
   "market": {
    "spx": {
-    "last": 7229.2001953125,
+    "last": 7175.830078125,
     "d": "2026-11-19",
-    "chg1": -1.29,
-    "chg5": -4.78,
-    "chg20": -5.67,
-    "from_high": -7.54
+    "chg1": -2.02,
+    "chg5": -5.49,
+    "chg20": -6.36,
+    "from_high": -8.22
    },
    "vix": {
-    "last": 28.020000457763672,
+    "last": 28.440000534057617,
     "d": "2026-11-19",
-    "chg1": 14.09,
-    "chg5": 49.84,
-    "chg20": 47.24
+    "chg1": 15.8,
+    "chg5": 52.09,
+    "chg20": 49.45
    },
    "brent": {
-    "last": 89.5999984741211,
+    "last": 89.93000030517578,
     "d": "2026-11-19",
-    "chg1": -2.56,
-    "chg5": -6.49,
-    "chg20": -20.83
+    "chg1": -2.2,
+    "chg5": -6.15,
+    "chg20": -20.54
    },
    "dxy": {
-    "last": 103.88899993896484,
+    "last": 103.88300323486328,
     "d": "2026-11-19",
-    "chg1": 0.03,
-    "chg5": 0.7,
+    "chg1": 0.02,
+    "chg5": 0.69,
     "chg20": 2.24
    },
    "gold": {
-    "last": 3675.300048828125,
+    "last": 3582.60009765625,
     "d": "2026-11-19",
-    "chg1": -1.78,
-    "chg5": -5.4,
-    "chg20": -9.48
+    "chg1": -4.26,
+    "chg5": -7.79,
+    "chg20": -11.77
    }
   },
   "auto_lean": {
-   "dec": 0.111,
+   "dec": -0.26,
    "cpi": -1.0,
    "nfp": 0.5
   },
   "changes": [
-   "VIX moved from 24.6 to 28.0."
+   "The data-driven lean for the next Fed decision moved from +0.11 to -0.26 (more dovish)."
   ]
  },
  "scorecard": {
