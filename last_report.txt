@@ -1,4 +1,4 @@
-MACRO WIRE RUN  2026-11-25T20:27:01+00:00
+MACRO WIRE RUN  2026-11-26T04:58:05+00:00
 
 1. COLLECT - sources
    Treasury               ok    2 of 2 requests ok
@@ -11,25 +11,25 @@ MACRO WIRE RUN  2026-11-25T20:27:01+00:00
 2. VALIDATE - 32 checks: 32 ok, 0 warnings, 0 failed
 
 3. UNDERSTAND - what the data says
-   - Rates: the 10Y yield is 4.91% (-1bp on the day, -19bp over 5 days); 2Y 4.63%, 10Y–2Y +28bp. Over five days the curve showed a parallel fall.
-   - Policy path: the 6-month bill yields 4.46% against an effective funds rate of 3.88%, so bills price about +58bp (+2.3 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.
-   - Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.12%, -9bp over 5 days.
+   - Rates: the 10Y yield is 4.85% (-6bp on the day, -22bp over 5 days); 2Y 4.61%, 10Y–2Y +24bp. Over five days the curve showed bull flattening (long yields falling faster).
+   - Policy path: the 6-month bill yields 4.44% against an effective funds rate of 3.88%, so bills price about +56bp (+2.2 quarter-point steps) over six months. A rough proxy: bills trade a few bp away from the policy rate even when no change is expected.
+   - Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.12%, -7bp over 5 days.
    - Jobs (Oct): payrolls +165K, 3-month average 137K (the three months before: 28K), unemployment 4.1% (+0.0 pt over 3 months).
-   - Stocks: the S&P 500 is 7,177 (-0.3% on the day, -2.0% over 5 days), 8.2% below its 66-day high; VIX 28.1 is elevated.
-   - Oil, dollar and gold: Brent $90.60 (-1.5% in 5 days); dollar index 103.67 (-0.2% in 5 days); gold $3,601 (-3.8% in 5 days).
-   * changed: Brent moved from $87.46 to $90.60.
+   - Stocks: the S&P 500 is 7,183 (-0.2% on the day, -1.9% over 5 days), 8.1% below its 65-day high; VIX 28.3 is elevated.
+   - Oil, dollar and gold: Brent $91.16 (-0.9% in 5 days); dollar index 103.80 (-0.1% in 5 days); gold $3,626 (-1.6% in 5 days).
+   * changed: The 10Y yield moved from 4.91% to 4.85% since the last run.
 
    Data-driven leans (-1 dovish ... +1 hawkish; the page adds its typed leads to these)
-   next Fed decision  -0.20  from 6 leads
-      +1.00 (weight 0.8)  The 6-month bill yields 58bp above the policy rate; after a normal 5bp bill premium that is about +53bp (+2.1 quarter-point steps) priced over six months, a rough read of the market's path
-      -1.00 (weight 0.6)  The 2Y yield, the market's read of the Fed, moved -17bp in 5 trading days (now 4.63%)
-      -1.00 (weight 0.4)  The 10Y inflation breakeven is 2.12%, -9bp over 5 days
-      -0.84 (weight 0.4)  VIX at 28.1 (elevated): stress makes the Fed less willing to tighten
-      -0.18 (weight 0.5)  Brent moved -1.5% over 5 trading days (now $90.60)
+   next Fed decision  -0.17  from 6 leads
+      +1.00 (weight 0.8)  The 6-month bill yields 56bp above the policy rate; after a normal 5bp bill premium that is about +51bp (+2.0 quarter-point steps) priced over six months, a rough read of the market's path
+      -1.00 (weight 0.6)  The 2Y yield, the market's read of the Fed, moved -19bp in 5 trading days (now 4.61%)
+      -0.88 (weight 0.4)  The 10Y inflation breakeven is 2.12%, -7bp over 5 days
+      -0.86 (weight 0.4)  VIX at 28.3 (elevated): stress makes the Fed less willing to tighten
+      -0.11 (weight 0.5)  Brent moved -0.9% over 5 trading days (now $91.16)
       -0.00 (weight 0.5)  Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience
    CPI                -1.00  from 2 leads
-      -1.00 (weight 0.8)  Brent averaged $94.53 in Nov against $108.62 in the month before, -13.0%; oil feeds pump prices within weeks
-      -1.00 (weight 0.5)  The 10Y breakeven moved -22bp over 20 trading days
+      -1.00 (weight 0.8)  Brent averaged $94.56 in Nov against $108.62 in the month before, -12.9%; oil feeds pump prices within weeks
+      -1.00 (weight 0.5)  The 10Y breakeven moved -23bp over 20 trading days
    jobs report        +0.50  from 2 leads
       +1.00 (weight 0.5)  Payroll growth averaged 137K over the last 3 months against 28K in the 3 before
       -0.00 (weight 0.5)  Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience
@@ -43,6 +43,6 @@ MACRO WIRE RUN  2026-11-25T20:27:01+00:00
    tile brent  refreshed
    tile gold   refreshed
    tile spx    refreshed
-   headlines: 120 kept of 723 fetched from 14 of 14 feeds
+   headlines: 120 kept of 729 fetched from 14 of 14 feeds
    scorecard: no scored calls yet (needs a CPI or jobs release after a run that made a call)
    wrote data.js - reload macro-wire.html
