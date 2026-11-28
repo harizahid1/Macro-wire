@@ -1,4 +1,4 @@
-MACRO WIRE RUN  2026-11-27T19:54:15+00:00
+MACRO WIRE RUN  2026-11-28T02:38:01+00:00
 
 1. COLLECT - sources
    Treasury               ok    2 of 2 requests ok
@@ -16,21 +16,18 @@ MACRO WIRE RUN  2026-11-27T19:54:15+00:00
    - Inflation expectations: the 10Y breakeven (nominal minus real yield) is 2.15%, -1bp over 5 days.
    - Jobs (Oct): payrolls +165K, 3-month average 137K (the three months before: 28K), unemployment 4.1% (+0.0 pt over 3 months).
    - Stocks: the S&P 500 is 7,297 (+1.6% on the day, +1.7% over 5 days), 6.7% below its 64-day high; VIX 23.8 is elevated.
-   - Oil, dollar and gold: Brent $90.78 (-1.3% in 5 days); dollar index 104.03 (+0.1% in 5 days); gold $3,668 (-0.5% in 5 days).
-   * changed: The 10Y yield moved from 4.85% to 4.94% since the last run.
-   * changed: VIX moved from 26.8 to 23.8.
-   * changed: The data-driven lean for the next Fed decision moved from -0.13 to +0.04 (more hawkish).
+   - Oil, dollar and gold: Brent $90.84 (-1.2% in 5 days); dollar index 104.01 (+0.1% in 5 days); gold $3,668 (-0.5% in 5 days).
 
    Data-driven leans (-1 dovish ... +1 hawkish; the page adds its typed leads to these)
    next Fed decision  +0.04  from 6 leads
       +1.00 (weight 0.8)  The 6-month bill yields 58bp above the policy rate; after a normal 5bp bill premium that is about +53bp (+2.1 quarter-point steps) priced over six months, a rough read of the market's path
       -0.58 (weight 0.6)  The 2Y yield, the market's read of the Fed, moved -7bp in 5 trading days (now 4.69%)
       -0.48 (weight 0.4)  VIX at 23.8 (elevated): stress makes the Fed less willing to tighten
-      -0.16 (weight 0.5)  Brent moved -1.3% over 5 trading days (now $90.78)
+      -0.15 (weight 0.5)  Brent moved -1.2% over 5 trading days (now $90.84)
       -0.12 (weight 0.4)  The 10Y inflation breakeven is 2.15%, -1bp over 5 days
       -0.00 (weight 0.5)  Unemployment is 4.1%, +0.0 pt over 3 months; a rising rate argues for patience
    CPI                -1.00  from 2 leads
-      -1.00 (weight 0.8)  Brent averaged $94.54 in Nov against $108.62 in the month before, -13.0%; oil feeds pump prices within weeks
+      -1.00 (weight 0.8)  Brent averaged $94.55 in Nov against $108.62 in the month before, -13.0%; oil feeds pump prices within weeks
       -1.00 (weight 0.5)  The 10Y breakeven moved -23bp over 20 trading days
    jobs report        +0.50  from 2 leads
       +1.00 (weight 0.5)  Payroll growth averaged 137K over the last 3 months against 28K in the 3 before
@@ -45,6 +42,6 @@ MACRO WIRE RUN  2026-11-27T19:54:15+00:00
    tile brent  refreshed
    tile gold   refreshed
    tile spx    refreshed
-   headlines: 120 kept of 712 fetched from 14 of 14 feeds
+   headlines: 120 kept of 660 fetched from 14 of 14 feeds
    scorecard: no scored calls yet (needs a CPI or jobs release after a run that made a call)
    wrote data.js - reload macro-wire.html
